@@ -3,10 +3,10 @@ name: E2E Selenium Tests
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   e2e-tests:
