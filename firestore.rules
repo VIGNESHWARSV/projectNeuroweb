@@ -1,0 +1,41 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper to check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Helper to check if the record belongs to the user
+    function isOwner(userId) {
+      return request.auth.uid == userId;
+    }
+
+    // User Profiles: Only the owner can read/write their own profile
+    match /users/{userId} {
+      allow read, write: if isAuthenticated() && isOwner(userId);
+    }
+
+    // Questionnaire: Only the owner can read/write their assessment
+    match /questionnaire/{userId} {
+      allow read, write: if isAuthenticated() && isOwner(userId);
+    }
+
+    // Goals: Only the owner can read/write their goals
+    match /goals/{userId} {
+      allow read, write: if isAuthenticated() && isOwner(userId);
+    }
+
+    // Mood Tracking: Only the owner can read/write their mood entries
+    match /moodTracking/{docId} {
+      allow read, write: if isAuthenticated() && request.resource.data.uid == request.auth.uid;
+      allow list: if isAuthenticated() && resource.data.uid == request.auth.uid;
+    }
+
+    // Notification Preferences: Only the owner can read/write
+    match /notifications/{userId} {
+      allow read, write: if isAuthenticated() && isOwner(userId);
+    }
+  }
+}

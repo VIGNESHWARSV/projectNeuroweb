@@ -1,0 +1,32 @@
+# Executables - blocked on Spark plan
+*.exe
+*.sh
+*.bat
+*.cmd
+*.bin
+*.out
+*.class
+*.jar
+
+# Android project
+android/
+
+# Python & backend
+*.py
+server.js
+
+# Tests
+selenium-tests/
+
+# Reports & docs
+Vulnerability Test Results/
+*.csv
+*.md
+
+# Dependencies
+node_modules/
+
+# Build tools
+*.gradle
+gradlew
+gradlew.bat

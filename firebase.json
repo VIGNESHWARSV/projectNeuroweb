@@ -1,0 +1,36 @@
+{
+  "hosting": {
+    "public": "frontend",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "**/*.py",
+      "**/*.sh",
+      "**/*.exe",
+      "**/*.bat",
+      "**/*.cmd",
+      "**/*.bin",
+      "**/*.out",
+      "**/*.class",
+      "**/*.jar",
+      "**/*.gradle",
+      "**/*.xml",
+      "server.js",
+      "package.json",
+      "package-lock.json",
+      "firestore.rules",
+      "android/**",
+      "selenium-tests/**",
+      "Vulnerability Test Results/**",
+      "*.csv",
+      "*.md"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
