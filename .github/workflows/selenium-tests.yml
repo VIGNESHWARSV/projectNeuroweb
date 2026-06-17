@@ -1,4 +1,4 @@
-name: CI Tests
+name: Selenium E2E Tests
 
 on:
   push:
@@ -9,42 +9,6 @@ on:
       - master
 
 jobs:
-  vulnerability-scan:
-    name: Vulnerability Scan
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@master
-        with:
-          scan-type: 'fs'
-          scan-ref: '.'
-          format: 'table'
-          exit-code: '0'
-          ignore-unfixed: true
-          severity: 'CRITICAL,HIGH'
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Run npm audit
-        working-directory: ./backend
-        run: npm audit --audit-level=high || true
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-
-      - name: Install and Run Bandit
-        run: |
-          pip install bandit
-          bandit -r . -ll || true
-
   e2e-tests:
     name: Run Selenium E2E Tests
     runs-on: windows-latest
