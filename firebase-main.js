@@ -315,7 +315,7 @@ if (document.readyState === 'loading') {
 
 // Expose Analysis Save function to global window for app.js to use
 window.saveUserAnalysis = async (type, score, details) => {
-    console.log(`Saving ${type} analysis result:`, { score, details });
+    // console.log(`Saving ${type} analysis result:`, { score, details }); // Removed for privacy
     
     // Save to local storage as transparent fallback/primary record
     saveAnalysisLocally(type, score, details);
@@ -464,7 +464,7 @@ async function updateWeeklyTrendsUI() {
             return;
         }
         
-        console.log("Weekly Analysis Data:", data);
+        // console.log("Weekly Analysis Data:", data); // Removed for privacy
         
         // Group by date and calculate average score per day
         const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];

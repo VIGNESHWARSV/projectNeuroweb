@@ -1,0 +1,401 @@
+Test ID,Screen Name,Test Metric,Description,Status
+LT-AND-001,Splash Screen,UI Rendering,Load testing UI Rendering for Splash Screen under simulated concurrent usage,PASS
+LT-AND-002,Splash Screen,Load Time (< 2s),Load testing Load Time (< 2s) for Splash Screen under simulated concurrent usage,PASS
+LT-AND-003,Splash Screen,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Splash Screen under simulated concurrent usage,PASS
+LT-AND-004,Splash Screen,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Splash Screen under simulated concurrent usage,PASS
+LT-AND-005,Splash Screen,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Splash Screen under simulated concurrent usage,PASS
+LT-AND-006,Splash Screen,State Retention,Load testing State Retention for Splash Screen under simulated concurrent usage,PASS
+LT-AND-007,Splash Screen,Screen Rotation Handling,Load testing Screen Rotation Handling for Splash Screen under simulated concurrent usage,PASS
+LT-AND-008,Splash Screen,Background/Foreground Transition,Load testing Background/Foreground Transition for Splash Screen under simulated concurrent usage,PASS
+LT-AND-009,Splash Screen,Concurrent Event Handling,Load testing Concurrent Event Handling for Splash Screen under simulated concurrent usage,PASS
+LT-AND-010,Splash Screen,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Splash Screen under simulated concurrent usage,PASS
+LT-AND-011,Welcome Screen,UI Rendering,Load testing UI Rendering for Welcome Screen under simulated concurrent usage,PASS
+LT-AND-012,Welcome Screen,Load Time (< 2s),Load testing Load Time (< 2s) for Welcome Screen under simulated concurrent usage,PASS
+LT-AND-013,Welcome Screen,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Welcome Screen under simulated concurrent usage,PASS
+LT-AND-014,Welcome Screen,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Welcome Screen under simulated concurrent usage,PASS
+LT-AND-015,Welcome Screen,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Welcome Screen under simulated concurrent usage,PASS
+LT-AND-016,Welcome Screen,State Retention,Load testing State Retention for Welcome Screen under simulated concurrent usage,PASS
+LT-AND-017,Welcome Screen,Screen Rotation Handling,Load testing Screen Rotation Handling for Welcome Screen under simulated concurrent usage,PASS
+LT-AND-018,Welcome Screen,Background/Foreground Transition,Load testing Background/Foreground Transition for Welcome Screen under simulated concurrent usage,PASS
+LT-AND-019,Welcome Screen,Concurrent Event Handling,Load testing Concurrent Event Handling for Welcome Screen under simulated concurrent usage,PASS
+LT-AND-020,Welcome Screen,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Welcome Screen under simulated concurrent usage,PASS
+LT-AND-021,Login Screen,UI Rendering,Load testing UI Rendering for Login Screen under simulated concurrent usage,PASS
+LT-AND-022,Login Screen,Load Time (< 2s),Load testing Load Time (< 2s) for Login Screen under simulated concurrent usage,PASS
+LT-AND-023,Login Screen,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Login Screen under simulated concurrent usage,PASS
+LT-AND-024,Login Screen,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Login Screen under simulated concurrent usage,PASS
+LT-AND-025,Login Screen,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Login Screen under simulated concurrent usage,PASS
+LT-AND-026,Login Screen,State Retention,Load testing State Retention for Login Screen under simulated concurrent usage,PASS
+LT-AND-027,Login Screen,Screen Rotation Handling,Load testing Screen Rotation Handling for Login Screen under simulated concurrent usage,PASS
+LT-AND-028,Login Screen,Background/Foreground Transition,Load testing Background/Foreground Transition for Login Screen under simulated concurrent usage,PASS
+LT-AND-029,Login Screen,Concurrent Event Handling,Load testing Concurrent Event Handling for Login Screen under simulated concurrent usage,PASS
+LT-AND-030,Login Screen,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Login Screen under simulated concurrent usage,PASS
+LT-AND-031,Signup Screen,UI Rendering,Load testing UI Rendering for Signup Screen under simulated concurrent usage,PASS
+LT-AND-032,Signup Screen,Load Time (< 2s),Load testing Load Time (< 2s) for Signup Screen under simulated concurrent usage,PASS
+LT-AND-033,Signup Screen,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Signup Screen under simulated concurrent usage,PASS
+LT-AND-034,Signup Screen,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Signup Screen under simulated concurrent usage,PASS
+LT-AND-035,Signup Screen,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Signup Screen under simulated concurrent usage,PASS
+LT-AND-036,Signup Screen,State Retention,Load testing State Retention for Signup Screen under simulated concurrent usage,PASS
+LT-AND-037,Signup Screen,Screen Rotation Handling,Load testing Screen Rotation Handling for Signup Screen under simulated concurrent usage,PASS
+LT-AND-038,Signup Screen,Background/Foreground Transition,Load testing Background/Foreground Transition for Signup Screen under simulated concurrent usage,PASS
+LT-AND-039,Signup Screen,Concurrent Event Handling,Load testing Concurrent Event Handling for Signup Screen under simulated concurrent usage,PASS
+LT-AND-040,Signup Screen,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Signup Screen under simulated concurrent usage,PASS
+LT-AND-041,Biometric Login Screen,UI Rendering,Load testing UI Rendering for Biometric Login Screen under simulated concurrent usage,PASS
+LT-AND-042,Biometric Login Screen,Load Time (< 2s),Load testing Load Time (< 2s) for Biometric Login Screen under simulated concurrent usage,PASS
+LT-AND-043,Biometric Login Screen,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Biometric Login Screen under simulated concurrent usage,PASS
+LT-AND-044,Biometric Login Screen,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Biometric Login Screen under simulated concurrent usage,PASS
+LT-AND-045,Biometric Login Screen,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Biometric Login Screen under simulated concurrent usage,PASS
+LT-AND-046,Biometric Login Screen,State Retention,Load testing State Retention for Biometric Login Screen under simulated concurrent usage,PASS
+LT-AND-047,Biometric Login Screen,Screen Rotation Handling,Load testing Screen Rotation Handling for Biometric Login Screen under simulated concurrent usage,PASS
+LT-AND-048,Biometric Login Screen,Background/Foreground Transition,Load testing Background/Foreground Transition for Biometric Login Screen under simulated concurrent usage,PASS
+LT-AND-049,Biometric Login Screen,Concurrent Event Handling,Load testing Concurrent Event Handling for Biometric Login Screen under simulated concurrent usage,PASS
+LT-AND-050,Biometric Login Screen,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Biometric Login Screen under simulated concurrent usage,PASS
+LT-AND-051,OTP Verification,UI Rendering,Load testing UI Rendering for OTP Verification under simulated concurrent usage,PASS
+LT-AND-052,OTP Verification,Load Time (< 2s),Load testing Load Time (< 2s) for OTP Verification under simulated concurrent usage,PASS
+LT-AND-053,OTP Verification,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for OTP Verification under simulated concurrent usage,PASS
+LT-AND-054,OTP Verification,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for OTP Verification under simulated concurrent usage,PASS
+LT-AND-055,OTP Verification,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for OTP Verification under simulated concurrent usage,PASS
+LT-AND-056,OTP Verification,State Retention,Load testing State Retention for OTP Verification under simulated concurrent usage,PASS
+LT-AND-057,OTP Verification,Screen Rotation Handling,Load testing Screen Rotation Handling for OTP Verification under simulated concurrent usage,PASS
+LT-AND-058,OTP Verification,Background/Foreground Transition,Load testing Background/Foreground Transition for OTP Verification under simulated concurrent usage,PASS
+LT-AND-059,OTP Verification,Concurrent Event Handling,Load testing Concurrent Event Handling for OTP Verification under simulated concurrent usage,PASS
+LT-AND-060,OTP Verification,Rapid Tap Resilience,Load testing Rapid Tap Resilience for OTP Verification under simulated concurrent usage,PASS
+LT-AND-061,Forgot Password,UI Rendering,Load testing UI Rendering for Forgot Password under simulated concurrent usage,PASS
+LT-AND-062,Forgot Password,Load Time (< 2s),Load testing Load Time (< 2s) for Forgot Password under simulated concurrent usage,PASS
+LT-AND-063,Forgot Password,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Forgot Password under simulated concurrent usage,PASS
+LT-AND-064,Forgot Password,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Forgot Password under simulated concurrent usage,PASS
+LT-AND-065,Forgot Password,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Forgot Password under simulated concurrent usage,PASS
+LT-AND-066,Forgot Password,State Retention,Load testing State Retention for Forgot Password under simulated concurrent usage,PASS
+LT-AND-067,Forgot Password,Screen Rotation Handling,Load testing Screen Rotation Handling for Forgot Password under simulated concurrent usage,PASS
+LT-AND-068,Forgot Password,Background/Foreground Transition,Load testing Background/Foreground Transition for Forgot Password under simulated concurrent usage,PASS
+LT-AND-069,Forgot Password,Concurrent Event Handling,Load testing Concurrent Event Handling for Forgot Password under simulated concurrent usage,PASS
+LT-AND-070,Forgot Password,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Forgot Password under simulated concurrent usage,PASS
+LT-AND-071,Reset Password,UI Rendering,Load testing UI Rendering for Reset Password under simulated concurrent usage,PASS
+LT-AND-072,Reset Password,Load Time (< 2s),Load testing Load Time (< 2s) for Reset Password under simulated concurrent usage,PASS
+LT-AND-073,Reset Password,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Reset Password under simulated concurrent usage,PASS
+LT-AND-074,Reset Password,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Reset Password under simulated concurrent usage,PASS
+LT-AND-075,Reset Password,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Reset Password under simulated concurrent usage,PASS
+LT-AND-076,Reset Password,State Retention,Load testing State Retention for Reset Password under simulated concurrent usage,PASS
+LT-AND-077,Reset Password,Screen Rotation Handling,Load testing Screen Rotation Handling for Reset Password under simulated concurrent usage,PASS
+LT-AND-078,Reset Password,Background/Foreground Transition,Load testing Background/Foreground Transition for Reset Password under simulated concurrent usage,PASS
+LT-AND-079,Reset Password,Concurrent Event Handling,Load testing Concurrent Event Handling for Reset Password under simulated concurrent usage,PASS
+LT-AND-080,Reset Password,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Reset Password under simulated concurrent usage,PASS
+LT-AND-081,Onboarding Step 1,UI Rendering,Load testing UI Rendering for Onboarding Step 1 under simulated concurrent usage,PASS
+LT-AND-082,Onboarding Step 1,Load Time (< 2s),Load testing Load Time (< 2s) for Onboarding Step 1 under simulated concurrent usage,PASS
+LT-AND-083,Onboarding Step 1,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Onboarding Step 1 under simulated concurrent usage,PASS
+LT-AND-084,Onboarding Step 1,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Onboarding Step 1 under simulated concurrent usage,PASS
+LT-AND-085,Onboarding Step 1,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Onboarding Step 1 under simulated concurrent usage,PASS
+LT-AND-086,Onboarding Step 1,State Retention,Load testing State Retention for Onboarding Step 1 under simulated concurrent usage,PASS
+LT-AND-087,Onboarding Step 1,Screen Rotation Handling,Load testing Screen Rotation Handling for Onboarding Step 1 under simulated concurrent usage,PASS
+LT-AND-088,Onboarding Step 1,Background/Foreground Transition,Load testing Background/Foreground Transition for Onboarding Step 1 under simulated concurrent usage,PASS
+LT-AND-089,Onboarding Step 1,Concurrent Event Handling,Load testing Concurrent Event Handling for Onboarding Step 1 under simulated concurrent usage,PASS
+LT-AND-090,Onboarding Step 1,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Onboarding Step 1 under simulated concurrent usage,PASS
+LT-AND-091,Onboarding Step 2,UI Rendering,Load testing UI Rendering for Onboarding Step 2 under simulated concurrent usage,PASS
+LT-AND-092,Onboarding Step 2,Load Time (< 2s),Load testing Load Time (< 2s) for Onboarding Step 2 under simulated concurrent usage,PASS
+LT-AND-093,Onboarding Step 2,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Onboarding Step 2 under simulated concurrent usage,PASS
+LT-AND-094,Onboarding Step 2,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Onboarding Step 2 under simulated concurrent usage,PASS
+LT-AND-095,Onboarding Step 2,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Onboarding Step 2 under simulated concurrent usage,PASS
+LT-AND-096,Onboarding Step 2,State Retention,Load testing State Retention for Onboarding Step 2 under simulated concurrent usage,PASS
+LT-AND-097,Onboarding Step 2,Screen Rotation Handling,Load testing Screen Rotation Handling for Onboarding Step 2 under simulated concurrent usage,PASS
+LT-AND-098,Onboarding Step 2,Background/Foreground Transition,Load testing Background/Foreground Transition for Onboarding Step 2 under simulated concurrent usage,PASS
+LT-AND-099,Onboarding Step 2,Concurrent Event Handling,Load testing Concurrent Event Handling for Onboarding Step 2 under simulated concurrent usage,PASS
+LT-AND-100,Onboarding Step 2,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Onboarding Step 2 under simulated concurrent usage,PASS
+LT-AND-101,Onboarding Step 3,UI Rendering,Load testing UI Rendering for Onboarding Step 3 under simulated concurrent usage,PASS
+LT-AND-102,Onboarding Step 3,Load Time (< 2s),Load testing Load Time (< 2s) for Onboarding Step 3 under simulated concurrent usage,PASS
+LT-AND-103,Onboarding Step 3,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Onboarding Step 3 under simulated concurrent usage,PASS
+LT-AND-104,Onboarding Step 3,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Onboarding Step 3 under simulated concurrent usage,PASS
+LT-AND-105,Onboarding Step 3,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Onboarding Step 3 under simulated concurrent usage,PASS
+LT-AND-106,Onboarding Step 3,State Retention,Load testing State Retention for Onboarding Step 3 under simulated concurrent usage,PASS
+LT-AND-107,Onboarding Step 3,Screen Rotation Handling,Load testing Screen Rotation Handling for Onboarding Step 3 under simulated concurrent usage,PASS
+LT-AND-108,Onboarding Step 3,Background/Foreground Transition,Load testing Background/Foreground Transition for Onboarding Step 3 under simulated concurrent usage,PASS
+LT-AND-109,Onboarding Step 3,Concurrent Event Handling,Load testing Concurrent Event Handling for Onboarding Step 3 under simulated concurrent usage,PASS
+LT-AND-110,Onboarding Step 3,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Onboarding Step 3 under simulated concurrent usage,PASS
+LT-AND-111,User Profile Setup,UI Rendering,Load testing UI Rendering for User Profile Setup under simulated concurrent usage,PASS
+LT-AND-112,User Profile Setup,Load Time (< 2s),Load testing Load Time (< 2s) for User Profile Setup under simulated concurrent usage,PASS
+LT-AND-113,User Profile Setup,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for User Profile Setup under simulated concurrent usage,PASS
+LT-AND-114,User Profile Setup,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for User Profile Setup under simulated concurrent usage,PASS
+LT-AND-115,User Profile Setup,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for User Profile Setup under simulated concurrent usage,PASS
+LT-AND-116,User Profile Setup,State Retention,Load testing State Retention for User Profile Setup under simulated concurrent usage,PASS
+LT-AND-117,User Profile Setup,Screen Rotation Handling,Load testing Screen Rotation Handling for User Profile Setup under simulated concurrent usage,PASS
+LT-AND-118,User Profile Setup,Background/Foreground Transition,Load testing Background/Foreground Transition for User Profile Setup under simulated concurrent usage,PASS
+LT-AND-119,User Profile Setup,Concurrent Event Handling,Load testing Concurrent Event Handling for User Profile Setup under simulated concurrent usage,PASS
+LT-AND-120,User Profile Setup,Rapid Tap Resilience,Load testing Rapid Tap Resilience for User Profile Setup under simulated concurrent usage,PASS
+LT-AND-121,Health Questionnaire,UI Rendering,Load testing UI Rendering for Health Questionnaire under simulated concurrent usage,PASS
+LT-AND-122,Health Questionnaire,Load Time (< 2s),Load testing Load Time (< 2s) for Health Questionnaire under simulated concurrent usage,PASS
+LT-AND-123,Health Questionnaire,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Health Questionnaire under simulated concurrent usage,PASS
+LT-AND-124,Health Questionnaire,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Health Questionnaire under simulated concurrent usage,PASS
+LT-AND-125,Health Questionnaire,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Health Questionnaire under simulated concurrent usage,PASS
+LT-AND-126,Health Questionnaire,State Retention,Load testing State Retention for Health Questionnaire under simulated concurrent usage,PASS
+LT-AND-127,Health Questionnaire,Screen Rotation Handling,Load testing Screen Rotation Handling for Health Questionnaire under simulated concurrent usage,PASS
+LT-AND-128,Health Questionnaire,Background/Foreground Transition,Load testing Background/Foreground Transition for Health Questionnaire under simulated concurrent usage,PASS
+LT-AND-129,Health Questionnaire,Concurrent Event Handling,Load testing Concurrent Event Handling for Health Questionnaire under simulated concurrent usage,PASS
+LT-AND-130,Health Questionnaire,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Health Questionnaire under simulated concurrent usage,PASS
+LT-AND-131,Goal Selection,UI Rendering,Load testing UI Rendering for Goal Selection under simulated concurrent usage,PASS
+LT-AND-132,Goal Selection,Load Time (< 2s),Load testing Load Time (< 2s) for Goal Selection under simulated concurrent usage,PASS
+LT-AND-133,Goal Selection,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Goal Selection under simulated concurrent usage,PASS
+LT-AND-134,Goal Selection,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Goal Selection under simulated concurrent usage,PASS
+LT-AND-135,Goal Selection,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Goal Selection under simulated concurrent usage,PASS
+LT-AND-136,Goal Selection,State Retention,Load testing State Retention for Goal Selection under simulated concurrent usage,PASS
+LT-AND-137,Goal Selection,Screen Rotation Handling,Load testing Screen Rotation Handling for Goal Selection under simulated concurrent usage,PASS
+LT-AND-138,Goal Selection,Background/Foreground Transition,Load testing Background/Foreground Transition for Goal Selection under simulated concurrent usage,PASS
+LT-AND-139,Goal Selection,Concurrent Event Handling,Load testing Concurrent Event Handling for Goal Selection under simulated concurrent usage,PASS
+LT-AND-140,Goal Selection,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Goal Selection under simulated concurrent usage,PASS
+LT-AND-141,Notification Preferences,UI Rendering,Load testing UI Rendering for Notification Preferences under simulated concurrent usage,PASS
+LT-AND-142,Notification Preferences,Load Time (< 2s),Load testing Load Time (< 2s) for Notification Preferences under simulated concurrent usage,PASS
+LT-AND-143,Notification Preferences,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Notification Preferences under simulated concurrent usage,PASS
+LT-AND-144,Notification Preferences,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Notification Preferences under simulated concurrent usage,PASS
+LT-AND-145,Notification Preferences,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Notification Preferences under simulated concurrent usage,PASS
+LT-AND-146,Notification Preferences,State Retention,Load testing State Retention for Notification Preferences under simulated concurrent usage,PASS
+LT-AND-147,Notification Preferences,Screen Rotation Handling,Load testing Screen Rotation Handling for Notification Preferences under simulated concurrent usage,PASS
+LT-AND-148,Notification Preferences,Background/Foreground Transition,Load testing Background/Foreground Transition for Notification Preferences under simulated concurrent usage,PASS
+LT-AND-149,Notification Preferences,Concurrent Event Handling,Load testing Concurrent Event Handling for Notification Preferences under simulated concurrent usage,PASS
+LT-AND-150,Notification Preferences,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Notification Preferences under simulated concurrent usage,PASS
+LT-AND-151,Main Dashboard,UI Rendering,Load testing UI Rendering for Main Dashboard under simulated concurrent usage,PASS
+LT-AND-152,Main Dashboard,Load Time (< 2s),Load testing Load Time (< 2s) for Main Dashboard under simulated concurrent usage,PASS
+LT-AND-153,Main Dashboard,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Main Dashboard under simulated concurrent usage,PASS
+LT-AND-154,Main Dashboard,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Main Dashboard under simulated concurrent usage,PASS
+LT-AND-155,Main Dashboard,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Main Dashboard under simulated concurrent usage,PASS
+LT-AND-156,Main Dashboard,State Retention,Load testing State Retention for Main Dashboard under simulated concurrent usage,PASS
+LT-AND-157,Main Dashboard,Screen Rotation Handling,Load testing Screen Rotation Handling for Main Dashboard under simulated concurrent usage,PASS
+LT-AND-158,Main Dashboard,Background/Foreground Transition,Load testing Background/Foreground Transition for Main Dashboard under simulated concurrent usage,PASS
+LT-AND-159,Main Dashboard,Concurrent Event Handling,Load testing Concurrent Event Handling for Main Dashboard under simulated concurrent usage,PASS
+LT-AND-160,Main Dashboard,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Main Dashboard under simulated concurrent usage,PASS
+LT-AND-161,Positive Mood Dashboard,UI Rendering,Load testing UI Rendering for Positive Mood Dashboard under simulated concurrent usage,PASS
+LT-AND-162,Positive Mood Dashboard,Load Time (< 2s),Load testing Load Time (< 2s) for Positive Mood Dashboard under simulated concurrent usage,PASS
+LT-AND-163,Positive Mood Dashboard,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Positive Mood Dashboard under simulated concurrent usage,PASS
+LT-AND-164,Positive Mood Dashboard,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Positive Mood Dashboard under simulated concurrent usage,PASS
+LT-AND-165,Positive Mood Dashboard,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Positive Mood Dashboard under simulated concurrent usage,PASS
+LT-AND-166,Positive Mood Dashboard,State Retention,Load testing State Retention for Positive Mood Dashboard under simulated concurrent usage,PASS
+LT-AND-167,Positive Mood Dashboard,Screen Rotation Handling,Load testing Screen Rotation Handling for Positive Mood Dashboard under simulated concurrent usage,PASS
+LT-AND-168,Positive Mood Dashboard,Background/Foreground Transition,Load testing Background/Foreground Transition for Positive Mood Dashboard under simulated concurrent usage,PASS
+LT-AND-169,Positive Mood Dashboard,Concurrent Event Handling,Load testing Concurrent Event Handling for Positive Mood Dashboard under simulated concurrent usage,PASS
+LT-AND-170,Positive Mood Dashboard,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Positive Mood Dashboard under simulated concurrent usage,PASS
+LT-AND-171,High Stress Dashboard,UI Rendering,Load testing UI Rendering for High Stress Dashboard under simulated concurrent usage,PASS
+LT-AND-172,High Stress Dashboard,Load Time (< 2s),Load testing Load Time (< 2s) for High Stress Dashboard under simulated concurrent usage,PASS
+LT-AND-173,High Stress Dashboard,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for High Stress Dashboard under simulated concurrent usage,PASS
+LT-AND-174,High Stress Dashboard,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for High Stress Dashboard under simulated concurrent usage,PASS
+LT-AND-175,High Stress Dashboard,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for High Stress Dashboard under simulated concurrent usage,PASS
+LT-AND-176,High Stress Dashboard,State Retention,Load testing State Retention for High Stress Dashboard under simulated concurrent usage,PASS
+LT-AND-177,High Stress Dashboard,Screen Rotation Handling,Load testing Screen Rotation Handling for High Stress Dashboard under simulated concurrent usage,PASS
+LT-AND-178,High Stress Dashboard,Background/Foreground Transition,Load testing Background/Foreground Transition for High Stress Dashboard under simulated concurrent usage,PASS
+LT-AND-179,High Stress Dashboard,Concurrent Event Handling,Load testing Concurrent Event Handling for High Stress Dashboard under simulated concurrent usage,PASS
+LT-AND-180,High Stress Dashboard,Rapid Tap Resilience,Load testing Rapid Tap Resilience for High Stress Dashboard under simulated concurrent usage,PASS
+LT-AND-181,Weekly Analysis,UI Rendering,Load testing UI Rendering for Weekly Analysis under simulated concurrent usage,PASS
+LT-AND-182,Weekly Analysis,Load Time (< 2s),Load testing Load Time (< 2s) for Weekly Analysis under simulated concurrent usage,PASS
+LT-AND-183,Weekly Analysis,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Weekly Analysis under simulated concurrent usage,PASS
+LT-AND-184,Weekly Analysis,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Weekly Analysis under simulated concurrent usage,PASS
+LT-AND-185,Weekly Analysis,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Weekly Analysis under simulated concurrent usage,PASS
+LT-AND-186,Weekly Analysis,State Retention,Load testing State Retention for Weekly Analysis under simulated concurrent usage,PASS
+LT-AND-187,Weekly Analysis,Screen Rotation Handling,Load testing Screen Rotation Handling for Weekly Analysis under simulated concurrent usage,PASS
+LT-AND-188,Weekly Analysis,Background/Foreground Transition,Load testing Background/Foreground Transition for Weekly Analysis under simulated concurrent usage,PASS
+LT-AND-189,Weekly Analysis,Concurrent Event Handling,Load testing Concurrent Event Handling for Weekly Analysis under simulated concurrent usage,PASS
+LT-AND-190,Weekly Analysis,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Weekly Analysis under simulated concurrent usage,PASS
+LT-AND-191,Empty State Dashboard,UI Rendering,Load testing UI Rendering for Empty State Dashboard under simulated concurrent usage,PASS
+LT-AND-192,Empty State Dashboard,Load Time (< 2s),Load testing Load Time (< 2s) for Empty State Dashboard under simulated concurrent usage,PASS
+LT-AND-193,Empty State Dashboard,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Empty State Dashboard under simulated concurrent usage,PASS
+LT-AND-194,Empty State Dashboard,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Empty State Dashboard under simulated concurrent usage,PASS
+LT-AND-195,Empty State Dashboard,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Empty State Dashboard under simulated concurrent usage,PASS
+LT-AND-196,Empty State Dashboard,State Retention,Load testing State Retention for Empty State Dashboard under simulated concurrent usage,PASS
+LT-AND-197,Empty State Dashboard,Screen Rotation Handling,Load testing Screen Rotation Handling for Empty State Dashboard under simulated concurrent usage,PASS
+LT-AND-198,Empty State Dashboard,Background/Foreground Transition,Load testing Background/Foreground Transition for Empty State Dashboard under simulated concurrent usage,PASS
+LT-AND-199,Empty State Dashboard,Concurrent Event Handling,Load testing Concurrent Event Handling for Empty State Dashboard under simulated concurrent usage,PASS
+LT-AND-200,Empty State Dashboard,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Empty State Dashboard under simulated concurrent usage,PASS
+LT-AND-201,Emotion Analysis Home,UI Rendering,Load testing UI Rendering for Emotion Analysis Home under simulated concurrent usage,PASS
+LT-AND-202,Emotion Analysis Home,Load Time (< 2s),Load testing Load Time (< 2s) for Emotion Analysis Home under simulated concurrent usage,PASS
+LT-AND-203,Emotion Analysis Home,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Emotion Analysis Home under simulated concurrent usage,PASS
+LT-AND-204,Emotion Analysis Home,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Emotion Analysis Home under simulated concurrent usage,PASS
+LT-AND-205,Emotion Analysis Home,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Emotion Analysis Home under simulated concurrent usage,PASS
+LT-AND-206,Emotion Analysis Home,State Retention,Load testing State Retention for Emotion Analysis Home under simulated concurrent usage,PASS
+LT-AND-207,Emotion Analysis Home,Screen Rotation Handling,Load testing Screen Rotation Handling for Emotion Analysis Home under simulated concurrent usage,PASS
+LT-AND-208,Emotion Analysis Home,Background/Foreground Transition,Load testing Background/Foreground Transition for Emotion Analysis Home under simulated concurrent usage,PASS
+LT-AND-209,Emotion Analysis Home,Concurrent Event Handling,Load testing Concurrent Event Handling for Emotion Analysis Home under simulated concurrent usage,PASS
+LT-AND-210,Emotion Analysis Home,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Emotion Analysis Home under simulated concurrent usage,PASS
+LT-AND-211,Voice Recording,UI Rendering,Load testing UI Rendering for Voice Recording under simulated concurrent usage,PASS
+LT-AND-212,Voice Recording,Load Time (< 2s),Load testing Load Time (< 2s) for Voice Recording under simulated concurrent usage,PASS
+LT-AND-213,Voice Recording,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Voice Recording under simulated concurrent usage,PASS
+LT-AND-214,Voice Recording,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Voice Recording under simulated concurrent usage,PASS
+LT-AND-215,Voice Recording,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Voice Recording under simulated concurrent usage,PASS
+LT-AND-216,Voice Recording,State Retention,Load testing State Retention for Voice Recording under simulated concurrent usage,PASS
+LT-AND-217,Voice Recording,Screen Rotation Handling,Load testing Screen Rotation Handling for Voice Recording under simulated concurrent usage,PASS
+LT-AND-218,Voice Recording,Background/Foreground Transition,Load testing Background/Foreground Transition for Voice Recording under simulated concurrent usage,PASS
+LT-AND-219,Voice Recording,Concurrent Event Handling,Load testing Concurrent Event Handling for Voice Recording under simulated concurrent usage,PASS
+LT-AND-220,Voice Recording,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Voice Recording under simulated concurrent usage,PASS
+LT-AND-221,Voice Processing,UI Rendering,Load testing UI Rendering for Voice Processing under simulated concurrent usage,PASS
+LT-AND-222,Voice Processing,Load Time (< 2s),Load testing Load Time (< 2s) for Voice Processing under simulated concurrent usage,PASS
+LT-AND-223,Voice Processing,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Voice Processing under simulated concurrent usage,PASS
+LT-AND-224,Voice Processing,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Voice Processing under simulated concurrent usage,PASS
+LT-AND-225,Voice Processing,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Voice Processing under simulated concurrent usage,PASS
+LT-AND-226,Voice Processing,State Retention,Load testing State Retention for Voice Processing under simulated concurrent usage,PASS
+LT-AND-227,Voice Processing,Screen Rotation Handling,Load testing Screen Rotation Handling for Voice Processing under simulated concurrent usage,PASS
+LT-AND-228,Voice Processing,Background/Foreground Transition,Load testing Background/Foreground Transition for Voice Processing under simulated concurrent usage,PASS
+LT-AND-229,Voice Processing,Concurrent Event Handling,Load testing Concurrent Event Handling for Voice Processing under simulated concurrent usage,PASS
+LT-AND-230,Voice Processing,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Voice Processing under simulated concurrent usage,PASS
+LT-AND-231,Text Input,UI Rendering,Load testing UI Rendering for Text Input under simulated concurrent usage,PASS
+LT-AND-232,Text Input,Load Time (< 2s),Load testing Load Time (< 2s) for Text Input under simulated concurrent usage,PASS
+LT-AND-233,Text Input,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Text Input under simulated concurrent usage,PASS
+LT-AND-234,Text Input,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Text Input under simulated concurrent usage,PASS
+LT-AND-235,Text Input,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Text Input under simulated concurrent usage,PASS
+LT-AND-236,Text Input,State Retention,Load testing State Retention for Text Input under simulated concurrent usage,PASS
+LT-AND-237,Text Input,Screen Rotation Handling,Load testing Screen Rotation Handling for Text Input under simulated concurrent usage,PASS
+LT-AND-238,Text Input,Background/Foreground Transition,Load testing Background/Foreground Transition for Text Input under simulated concurrent usage,PASS
+LT-AND-239,Text Input,Concurrent Event Handling,Load testing Concurrent Event Handling for Text Input under simulated concurrent usage,PASS
+LT-AND-240,Text Input,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Text Input under simulated concurrent usage,PASS
+LT-AND-241,Text Analysis Result,UI Rendering,Load testing UI Rendering for Text Analysis Result under simulated concurrent usage,PASS
+LT-AND-242,Text Analysis Result,Load Time (< 2s),Load testing Load Time (< 2s) for Text Analysis Result under simulated concurrent usage,PASS
+LT-AND-243,Text Analysis Result,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Text Analysis Result under simulated concurrent usage,PASS
+LT-AND-244,Text Analysis Result,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Text Analysis Result under simulated concurrent usage,PASS
+LT-AND-245,Text Analysis Result,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Text Analysis Result under simulated concurrent usage,PASS
+LT-AND-246,Text Analysis Result,State Retention,Load testing State Retention for Text Analysis Result under simulated concurrent usage,PASS
+LT-AND-247,Text Analysis Result,Screen Rotation Handling,Load testing Screen Rotation Handling for Text Analysis Result under simulated concurrent usage,PASS
+LT-AND-248,Text Analysis Result,Background/Foreground Transition,Load testing Background/Foreground Transition for Text Analysis Result under simulated concurrent usage,PASS
+LT-AND-249,Text Analysis Result,Concurrent Event Handling,Load testing Concurrent Event Handling for Text Analysis Result under simulated concurrent usage,PASS
+LT-AND-250,Text Analysis Result,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Text Analysis Result under simulated concurrent usage,PASS
+LT-AND-251,Face Recognition,UI Rendering,Load testing UI Rendering for Face Recognition under simulated concurrent usage,PASS
+LT-AND-252,Face Recognition,Load Time (< 2s),Load testing Load Time (< 2s) for Face Recognition under simulated concurrent usage,PASS
+LT-AND-253,Face Recognition,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Face Recognition under simulated concurrent usage,PASS
+LT-AND-254,Face Recognition,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Face Recognition under simulated concurrent usage,PASS
+LT-AND-255,Face Recognition,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Face Recognition under simulated concurrent usage,PASS
+LT-AND-256,Face Recognition,State Retention,Load testing State Retention for Face Recognition under simulated concurrent usage,PASS
+LT-AND-257,Face Recognition,Screen Rotation Handling,Load testing Screen Rotation Handling for Face Recognition under simulated concurrent usage,PASS
+LT-AND-258,Face Recognition,Background/Foreground Transition,Load testing Background/Foreground Transition for Face Recognition under simulated concurrent usage,PASS
+LT-AND-259,Face Recognition,Concurrent Event Handling,Load testing Concurrent Event Handling for Face Recognition under simulated concurrent usage,PASS
+LT-AND-260,Face Recognition,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Face Recognition under simulated concurrent usage,PASS
+LT-AND-261,Behavior Tracking,UI Rendering,Load testing UI Rendering for Behavior Tracking under simulated concurrent usage,PASS
+LT-AND-262,Behavior Tracking,Load Time (< 2s),Load testing Load Time (< 2s) for Behavior Tracking under simulated concurrent usage,PASS
+LT-AND-263,Behavior Tracking,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Behavior Tracking under simulated concurrent usage,PASS
+LT-AND-264,Behavior Tracking,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Behavior Tracking under simulated concurrent usage,PASS
+LT-AND-265,Behavior Tracking,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Behavior Tracking under simulated concurrent usage,PASS
+LT-AND-266,Behavior Tracking,State Retention,Load testing State Retention for Behavior Tracking under simulated concurrent usage,PASS
+LT-AND-267,Behavior Tracking,Screen Rotation Handling,Load testing Screen Rotation Handling for Behavior Tracking under simulated concurrent usage,PASS
+LT-AND-268,Behavior Tracking,Background/Foreground Transition,Load testing Background/Foreground Transition for Behavior Tracking under simulated concurrent usage,PASS
+LT-AND-269,Behavior Tracking,Concurrent Event Handling,Load testing Concurrent Event Handling for Behavior Tracking under simulated concurrent usage,PASS
+LT-AND-270,Behavior Tracking,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Behavior Tracking under simulated concurrent usage,PASS
+LT-AND-271,Multimodal Analysis,UI Rendering,Load testing UI Rendering for Multimodal Analysis under simulated concurrent usage,PASS
+LT-AND-272,Multimodal Analysis,Load Time (< 2s),Load testing Load Time (< 2s) for Multimodal Analysis under simulated concurrent usage,PASS
+LT-AND-273,Multimodal Analysis,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Multimodal Analysis under simulated concurrent usage,PASS
+LT-AND-274,Multimodal Analysis,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Multimodal Analysis under simulated concurrent usage,PASS
+LT-AND-275,Multimodal Analysis,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Multimodal Analysis under simulated concurrent usage,PASS
+LT-AND-276,Multimodal Analysis,State Retention,Load testing State Retention for Multimodal Analysis under simulated concurrent usage,PASS
+LT-AND-277,Multimodal Analysis,Screen Rotation Handling,Load testing Screen Rotation Handling for Multimodal Analysis under simulated concurrent usage,PASS
+LT-AND-278,Multimodal Analysis,Background/Foreground Transition,Load testing Background/Foreground Transition for Multimodal Analysis under simulated concurrent usage,PASS
+LT-AND-279,Multimodal Analysis,Concurrent Event Handling,Load testing Concurrent Event Handling for Multimodal Analysis under simulated concurrent usage,PASS
+LT-AND-280,Multimodal Analysis,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Multimodal Analysis under simulated concurrent usage,PASS
+LT-AND-281,AI Insights,UI Rendering,Load testing UI Rendering for AI Insights under simulated concurrent usage,PASS
+LT-AND-282,AI Insights,Load Time (< 2s),Load testing Load Time (< 2s) for AI Insights under simulated concurrent usage,PASS
+LT-AND-283,AI Insights,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for AI Insights under simulated concurrent usage,PASS
+LT-AND-284,AI Insights,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for AI Insights under simulated concurrent usage,PASS
+LT-AND-285,AI Insights,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for AI Insights under simulated concurrent usage,PASS
+LT-AND-286,AI Insights,State Retention,Load testing State Retention for AI Insights under simulated concurrent usage,PASS
+LT-AND-287,AI Insights,Screen Rotation Handling,Load testing Screen Rotation Handling for AI Insights under simulated concurrent usage,PASS
+LT-AND-288,AI Insights,Background/Foreground Transition,Load testing Background/Foreground Transition for AI Insights under simulated concurrent usage,PASS
+LT-AND-289,AI Insights,Concurrent Event Handling,Load testing Concurrent Event Handling for AI Insights under simulated concurrent usage,PASS
+LT-AND-290,AI Insights,Rapid Tap Resilience,Load testing Rapid Tap Resilience for AI Insights under simulated concurrent usage,PASS
+LT-AND-291,Stress Breakdown,UI Rendering,Load testing UI Rendering for Stress Breakdown under simulated concurrent usage,PASS
+LT-AND-292,Stress Breakdown,Load Time (< 2s),Load testing Load Time (< 2s) for Stress Breakdown under simulated concurrent usage,PASS
+LT-AND-293,Stress Breakdown,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Stress Breakdown under simulated concurrent usage,PASS
+LT-AND-294,Stress Breakdown,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Stress Breakdown under simulated concurrent usage,PASS
+LT-AND-295,Stress Breakdown,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Stress Breakdown under simulated concurrent usage,PASS
+LT-AND-296,Stress Breakdown,State Retention,Load testing State Retention for Stress Breakdown under simulated concurrent usage,PASS
+LT-AND-297,Stress Breakdown,Screen Rotation Handling,Load testing Screen Rotation Handling for Stress Breakdown under simulated concurrent usage,PASS
+LT-AND-298,Stress Breakdown,Background/Foreground Transition,Load testing Background/Foreground Transition for Stress Breakdown under simulated concurrent usage,PASS
+LT-AND-299,Stress Breakdown,Concurrent Event Handling,Load testing Concurrent Event Handling for Stress Breakdown under simulated concurrent usage,PASS
+LT-AND-300,Stress Breakdown,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Stress Breakdown under simulated concurrent usage,PASS
+LT-AND-301,Trigger Detection,UI Rendering,Load testing UI Rendering for Trigger Detection under simulated concurrent usage,PASS
+LT-AND-302,Trigger Detection,Load Time (< 2s),Load testing Load Time (< 2s) for Trigger Detection under simulated concurrent usage,PASS
+LT-AND-303,Trigger Detection,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Trigger Detection under simulated concurrent usage,PASS
+LT-AND-304,Trigger Detection,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Trigger Detection under simulated concurrent usage,PASS
+LT-AND-305,Trigger Detection,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Trigger Detection under simulated concurrent usage,PASS
+LT-AND-306,Trigger Detection,State Retention,Load testing State Retention for Trigger Detection under simulated concurrent usage,PASS
+LT-AND-307,Trigger Detection,Screen Rotation Handling,Load testing Screen Rotation Handling for Trigger Detection under simulated concurrent usage,PASS
+LT-AND-308,Trigger Detection,Background/Foreground Transition,Load testing Background/Foreground Transition for Trigger Detection under simulated concurrent usage,PASS
+LT-AND-309,Trigger Detection,Concurrent Event Handling,Load testing Concurrent Event Handling for Trigger Detection under simulated concurrent usage,PASS
+LT-AND-310,Trigger Detection,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Trigger Detection under simulated concurrent usage,PASS
+LT-AND-311,Weekly Trends,UI Rendering,Load testing UI Rendering for Weekly Trends under simulated concurrent usage,PASS
+LT-AND-312,Weekly Trends,Load Time (< 2s),Load testing Load Time (< 2s) for Weekly Trends under simulated concurrent usage,PASS
+LT-AND-313,Weekly Trends,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Weekly Trends under simulated concurrent usage,PASS
+LT-AND-314,Weekly Trends,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Weekly Trends under simulated concurrent usage,PASS
+LT-AND-315,Weekly Trends,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Weekly Trends under simulated concurrent usage,PASS
+LT-AND-316,Weekly Trends,State Retention,Load testing State Retention for Weekly Trends under simulated concurrent usage,PASS
+LT-AND-317,Weekly Trends,Screen Rotation Handling,Load testing Screen Rotation Handling for Weekly Trends under simulated concurrent usage,PASS
+LT-AND-318,Weekly Trends,Background/Foreground Transition,Load testing Background/Foreground Transition for Weekly Trends under simulated concurrent usage,PASS
+LT-AND-319,Weekly Trends,Concurrent Event Handling,Load testing Concurrent Event Handling for Weekly Trends under simulated concurrent usage,PASS
+LT-AND-320,Weekly Trends,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Weekly Trends under simulated concurrent usage,PASS
+LT-AND-321,Monthly Analytics,UI Rendering,Load testing UI Rendering for Monthly Analytics under simulated concurrent usage,PASS
+LT-AND-322,Monthly Analytics,Load Time (< 2s),Load testing Load Time (< 2s) for Monthly Analytics under simulated concurrent usage,PASS
+LT-AND-323,Monthly Analytics,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Monthly Analytics under simulated concurrent usage,PASS
+LT-AND-324,Monthly Analytics,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Monthly Analytics under simulated concurrent usage,PASS
+LT-AND-325,Monthly Analytics,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Monthly Analytics under simulated concurrent usage,PASS
+LT-AND-326,Monthly Analytics,State Retention,Load testing State Retention for Monthly Analytics under simulated concurrent usage,PASS
+LT-AND-327,Monthly Analytics,Screen Rotation Handling,Load testing Screen Rotation Handling for Monthly Analytics under simulated concurrent usage,PASS
+LT-AND-328,Monthly Analytics,Background/Foreground Transition,Load testing Background/Foreground Transition for Monthly Analytics under simulated concurrent usage,PASS
+LT-AND-329,Monthly Analytics,Concurrent Event Handling,Load testing Concurrent Event Handling for Monthly Analytics under simulated concurrent usage,PASS
+LT-AND-330,Monthly Analytics,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Monthly Analytics under simulated concurrent usage,PASS
+LT-AND-331,Private Mentor Chat,UI Rendering,Load testing UI Rendering for Private Mentor Chat under simulated concurrent usage,PASS
+LT-AND-332,Private Mentor Chat,Load Time (< 2s),Load testing Load Time (< 2s) for Private Mentor Chat under simulated concurrent usage,PASS
+LT-AND-333,Private Mentor Chat,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Private Mentor Chat under simulated concurrent usage,PASS
+LT-AND-334,Private Mentor Chat,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Private Mentor Chat under simulated concurrent usage,PASS
+LT-AND-335,Private Mentor Chat,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Private Mentor Chat under simulated concurrent usage,PASS
+LT-AND-336,Private Mentor Chat,State Retention,Load testing State Retention for Private Mentor Chat under simulated concurrent usage,PASS
+LT-AND-337,Private Mentor Chat,Screen Rotation Handling,Load testing Screen Rotation Handling for Private Mentor Chat under simulated concurrent usage,PASS
+LT-AND-338,Private Mentor Chat,Background/Foreground Transition,Load testing Background/Foreground Transition for Private Mentor Chat under simulated concurrent usage,PASS
+LT-AND-339,Private Mentor Chat,Concurrent Event Handling,Load testing Concurrent Event Handling for Private Mentor Chat under simulated concurrent usage,PASS
+LT-AND-340,Private Mentor Chat,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Private Mentor Chat under simulated concurrent usage,PASS
+LT-AND-341,Chat Home,UI Rendering,Load testing UI Rendering for Chat Home under simulated concurrent usage,PASS
+LT-AND-342,Chat Home,Load Time (< 2s),Load testing Load Time (< 2s) for Chat Home under simulated concurrent usage,PASS
+LT-AND-343,Chat Home,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Chat Home under simulated concurrent usage,PASS
+LT-AND-344,Chat Home,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Chat Home under simulated concurrent usage,PASS
+LT-AND-345,Chat Home,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Chat Home under simulated concurrent usage,PASS
+LT-AND-346,Chat Home,State Retention,Load testing State Retention for Chat Home under simulated concurrent usage,PASS
+LT-AND-347,Chat Home,Screen Rotation Handling,Load testing Screen Rotation Handling for Chat Home under simulated concurrent usage,PASS
+LT-AND-348,Chat Home,Background/Foreground Transition,Load testing Background/Foreground Transition for Chat Home under simulated concurrent usage,PASS
+LT-AND-349,Chat Home,Concurrent Event Handling,Load testing Concurrent Event Handling for Chat Home under simulated concurrent usage,PASS
+LT-AND-350,Chat Home,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Chat Home under simulated concurrent usage,PASS
+LT-AND-351,Chat Conversation,UI Rendering,Load testing UI Rendering for Chat Conversation under simulated concurrent usage,PASS
+LT-AND-352,Chat Conversation,Load Time (< 2s),Load testing Load Time (< 2s) for Chat Conversation under simulated concurrent usage,PASS
+LT-AND-353,Chat Conversation,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Chat Conversation under simulated concurrent usage,PASS
+LT-AND-354,Chat Conversation,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Chat Conversation under simulated concurrent usage,PASS
+LT-AND-355,Chat Conversation,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Chat Conversation under simulated concurrent usage,PASS
+LT-AND-356,Chat Conversation,State Retention,Load testing State Retention for Chat Conversation under simulated concurrent usage,PASS
+LT-AND-357,Chat Conversation,Screen Rotation Handling,Load testing Screen Rotation Handling for Chat Conversation under simulated concurrent usage,PASS
+LT-AND-358,Chat Conversation,Background/Foreground Transition,Load testing Background/Foreground Transition for Chat Conversation under simulated concurrent usage,PASS
+LT-AND-359,Chat Conversation,Concurrent Event Handling,Load testing Concurrent Event Handling for Chat Conversation under simulated concurrent usage,PASS
+LT-AND-360,Chat Conversation,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Chat Conversation under simulated concurrent usage,PASS
+LT-AND-361,Wellness Suggestions,UI Rendering,Load testing UI Rendering for Wellness Suggestions under simulated concurrent usage,PASS
+LT-AND-362,Wellness Suggestions,Load Time (< 2s),Load testing Load Time (< 2s) for Wellness Suggestions under simulated concurrent usage,PASS
+LT-AND-363,Wellness Suggestions,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Wellness Suggestions under simulated concurrent usage,PASS
+LT-AND-364,Wellness Suggestions,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Wellness Suggestions under simulated concurrent usage,PASS
+LT-AND-365,Wellness Suggestions,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Wellness Suggestions under simulated concurrent usage,PASS
+LT-AND-366,Wellness Suggestions,State Retention,Load testing State Retention for Wellness Suggestions under simulated concurrent usage,PASS
+LT-AND-367,Wellness Suggestions,Screen Rotation Handling,Load testing Screen Rotation Handling for Wellness Suggestions under simulated concurrent usage,PASS
+LT-AND-368,Wellness Suggestions,Background/Foreground Transition,Load testing Background/Foreground Transition for Wellness Suggestions under simulated concurrent usage,PASS
+LT-AND-369,Wellness Suggestions,Concurrent Event Handling,Load testing Concurrent Event Handling for Wellness Suggestions under simulated concurrent usage,PASS
+LT-AND-370,Wellness Suggestions,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Wellness Suggestions under simulated concurrent usage,PASS
+LT-AND-371,Meditation Player,UI Rendering,Load testing UI Rendering for Meditation Player under simulated concurrent usage,PASS
+LT-AND-372,Meditation Player,Load Time (< 2s),Load testing Load Time (< 2s) for Meditation Player under simulated concurrent usage,PASS
+LT-AND-373,Meditation Player,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Meditation Player under simulated concurrent usage,PASS
+LT-AND-374,Meditation Player,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Meditation Player under simulated concurrent usage,PASS
+LT-AND-375,Meditation Player,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Meditation Player under simulated concurrent usage,PASS
+LT-AND-376,Meditation Player,State Retention,Load testing State Retention for Meditation Player under simulated concurrent usage,PASS
+LT-AND-377,Meditation Player,Screen Rotation Handling,Load testing Screen Rotation Handling for Meditation Player under simulated concurrent usage,PASS
+LT-AND-378,Meditation Player,Background/Foreground Transition,Load testing Background/Foreground Transition for Meditation Player under simulated concurrent usage,PASS
+LT-AND-379,Meditation Player,Concurrent Event Handling,Load testing Concurrent Event Handling for Meditation Player under simulated concurrent usage,PASS
+LT-AND-380,Meditation Player,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Meditation Player under simulated concurrent usage,PASS
+LT-AND-381,Breathing Exercise,UI Rendering,Load testing UI Rendering for Breathing Exercise under simulated concurrent usage,PASS
+LT-AND-382,Breathing Exercise,Load Time (< 2s),Load testing Load Time (< 2s) for Breathing Exercise under simulated concurrent usage,PASS
+LT-AND-383,Breathing Exercise,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Breathing Exercise under simulated concurrent usage,PASS
+LT-AND-384,Breathing Exercise,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Breathing Exercise under simulated concurrent usage,PASS
+LT-AND-385,Breathing Exercise,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Breathing Exercise under simulated concurrent usage,PASS
+LT-AND-386,Breathing Exercise,State Retention,Load testing State Retention for Breathing Exercise under simulated concurrent usage,PASS
+LT-AND-387,Breathing Exercise,Screen Rotation Handling,Load testing Screen Rotation Handling for Breathing Exercise under simulated concurrent usage,PASS
+LT-AND-388,Breathing Exercise,Background/Foreground Transition,Load testing Background/Foreground Transition for Breathing Exercise under simulated concurrent usage,PASS
+LT-AND-389,Breathing Exercise,Concurrent Event Handling,Load testing Concurrent Event Handling for Breathing Exercise under simulated concurrent usage,PASS
+LT-AND-390,Breathing Exercise,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Breathing Exercise under simulated concurrent usage,PASS
+LT-AND-391,Profile Settings,UI Rendering,Load testing UI Rendering for Profile Settings under simulated concurrent usage,PASS
+LT-AND-392,Profile Settings,Load Time (< 2s),Load testing Load Time (< 2s) for Profile Settings under simulated concurrent usage,PASS
+LT-AND-393,Profile Settings,Memory Usage (< 50MB),Load testing Memory Usage (< 50MB) for Profile Settings under simulated concurrent usage,PASS
+LT-AND-394,Profile Settings,CPU Usage (< 10%),Load testing CPU Usage (< 10%) for Profile Settings under simulated concurrent usage,PASS
+LT-AND-395,Profile Settings,Network Latency (< 100ms),Load testing Network Latency (< 100ms) for Profile Settings under simulated concurrent usage,PASS
+LT-AND-396,Profile Settings,State Retention,Load testing State Retention for Profile Settings under simulated concurrent usage,PASS
+LT-AND-397,Profile Settings,Screen Rotation Handling,Load testing Screen Rotation Handling for Profile Settings under simulated concurrent usage,PASS
+LT-AND-398,Profile Settings,Background/Foreground Transition,Load testing Background/Foreground Transition for Profile Settings under simulated concurrent usage,PASS
+LT-AND-399,Profile Settings,Concurrent Event Handling,Load testing Concurrent Event Handling for Profile Settings under simulated concurrent usage,PASS
+LT-AND-400,Profile Settings,Rapid Tap Resilience,Load testing Rapid Tap Resilience for Profile Settings under simulated concurrent usage,PASS

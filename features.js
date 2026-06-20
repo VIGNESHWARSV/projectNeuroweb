@@ -222,11 +222,16 @@ window.NW_VoiceJournal = {
             return;
         }
 
+        const escapeHtml = (str) => {
+            if (!str) return '';
+            return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        };
+
         container.innerHTML = entries.map(e => `
-            <div class="journal-entry-card" style="border-left-color:${e.emotionColor};">
-                <div class="je-date">${e.date} · ${e.time || ''}</div>
-                <div class="je-text">${e.text}</div>
-                <span class="je-emotion" style="background:${e.emotionBg};color:${e.emotionColor};">${e.emotion}</span>
+            <div class="journal-entry-card" style="border-left-color:${escapeHtml(e.emotionColor)};">
+                <div class="je-date">${escapeHtml(e.date)} · ${escapeHtml(e.time || '')}</div>
+                <div class="je-text">${escapeHtml(e.text)}</div>
+                <span class="je-emotion" style="background:${escapeHtml(e.emotionBg)};color:${escapeHtml(e.emotionColor)};">${escapeHtml(e.emotion)}</span>
             </div>`).join('');
     }
 };

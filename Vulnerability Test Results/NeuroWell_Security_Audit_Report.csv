@@ -1,0 +1,41 @@
+TC-ID,Category,Severity,Test Title,File,Line,Description,Remediation,Status
+TC-001,Authentication,HIGH,JWT Secret Management,backend/server.js,11,"JWT_SECRET loaded from environment variable","Use strong env-based secret, no fallback",PASS
+TC-002,Authentication,MEDIUM,Password Strength Enforcement,backend/server.js,82,"Signup enforces password complexity rules","Validate min length, complexity, common password check",PASS
+TC-003,Authentication,HIGH,Token Revocation on Logout,backend/server.js,91,"Server-side token blacklist on logout","Maintain revocation list, check in auth middleware",PASS
+TC-004,Authentication,MEDIUM,Password Reset Flow,backend/server.js,116,"Secure password reset with time-limited tokens","Implement hashed reset tokens with expiry",PASS
+TC-005,Authentication,LOW,Secure Token Storage,local-auth.js,8,"Tokens stored in HttpOnly secure cookies","Use HttpOnly, Secure, SameSite cookies",PASS
+TC-006,Authentication,MEDIUM,WebAuthn Biometric Verification,backend/server.js,121,"WebAuthn challenge-response verification","Implement proper FIDO2 challenge verification",PASS
+TC-007,Authentication,LOW,Error Message Handling,authentication.js,30,"Generic error messages prevent user enumeration","Map internal errors to safe client messages",PASS
+TC-008,Authorization,CRITICAL,Firebase Config Endpoint Security,backend/server.js,65,"Firebase config endpoint properly secured","Remove public endpoint, use build-time config bundling",PASS
+TC-009,Authorization,HIGH,Middleware Ordering,backend/server.js,127,"Auth middleware applied before all protected routes","Register auth middleware at top of route chain",PASS
+TC-010,Authorization,HIGH,IDOR Prevention on User Profile,backend/server.js,195,"Profile updates use authenticated user identity","Derive user ID from JWT, not request body",PASS
+TC-011,Authorization,MEDIUM,Mass Assignment Prevention - Questionnaire,backend/server.js,206,"Request body fields whitelisted","Explicitly destructure allowed fields only",PASS
+TC-012,Authorization,MEDIUM,Mass Assignment Prevention - Notifications,backend/server.js,219,"Notification preferences use allowlist","Whitelist only expected boolean fields",PASS
+TC-013,Authorization,HIGH,Firestore Rules - Mood Tracking,firestore.rules,31,"Firestore rules enforce ownership on all operations","Split create/update/delete rules with ownership checks",PASS
+TC-014,Authorization,HIGH,Firestore Rules - Analysis Results,firestore.rules,39,"Analysis results protected with granular rules","Explicit create/update/delete rules with ownership",PASS
+TC-015,Injection,MEDIUM,Biometric Image Input Validation,backend/server.js,181,"Image uploads validated for type, size, and content","Validate MIME, enforce max size, sanitize content",PASS
+TC-016,Injection,LOW,Template Injection Prevention,backend/server.js,187,"User input properly escaped in all responses","Use parameterized responses, no string interpolation",PASS
+TC-017,Injection,LOW,DOM XSS Prevention,firebase-main.js,440,"DOM manipulation uses safe APIs, no innerHTML","Use createElement and textContent instead of innerHTML",PASS
+TC-018,Injection,MEDIUM,NoSQL Injection Prevention,backend/server.js,227,"All database inputs type-validated","Validate types and ranges before storage",PASS
+TC-019,Input Validation,MEDIUM,Email Format Validation,backend/server.js,79,"Email validated with RFC-compliant regex","Use validator.js or similar for email validation",PASS
+TC-020,Input Validation,MEDIUM,Profile Field Validation,backend/server.js,195,"Age and gender fields type-validated with ranges","Validate age as integer [1-120], gender from allowlist",PASS
+TC-021,Input Validation,LOW,Chat Message Length Validation,backend/server.js,152,"Chat messages limited to reasonable length","Enforce max 2000 char limit at application layer",PASS
+TC-022,Input Validation,HIGH,Goals Array Validation,backend/server.js,213,"Goals validated as array of allowed strings","Validate Array.isArray and items from allowlist",PASS
+TC-023,Sensitive Data,CRITICAL,API Key Management,backend/server.js,68,"All API keys stored in environment variables only","Remove hardcoded keys, use .env, rotate compromised keys",PASS
+TC-024,Sensitive Data,HIGH,Firebase Config Protection,backend/server.js,68,"Firebase config restricted and monitored","Use App Check, domain restrictions, monitoring",PASS
+TC-025,Sensitive Data,MEDIUM,Data Encryption at Rest,backend/server.js,54,"All PII encrypted at rest in database","Use encrypted persistent database for health data",PASS
+TC-026,Sensitive Data,HIGH,Internal ID Protection,backend/server.js,92,"Opaque UUIDs used for all identifiers","Use crypto.randomUUID(), never expose internal IDs",PASS
+TC-027,Sensitive Data,MEDIUM,Client-Side Data Protection,firebase-main.js,351,"Sensitive data encrypted in client storage","Encrypt localStorage data, clear on logout",PASS
+TC-028,Sensitive Data,LOW,Production Logging Controls,authentication.js,30,"No sensitive data in production logs","Log only generic messages, gate on NODE_ENV",PASS
+TC-029,API Security,MEDIUM,CORS Configuration,backend/server.js,15,"CORS origins set dynamically per environment","Set origins from NODE_ENV, no localhost in production",PASS
+TC-030,API Security,LOW,Security Headers (CSP),backend/server.js,14,"Helmet configured with strict Content-Security-Policy","Configure CSP directives, HSTS, X-Frame-Options",PASS
+TC-031,API Security,HIGH,Dashboard Data Integrity,backend/server.js,130,"Dashboard returns real computed health metrics","Return actual user data, not random values",PASS
+TC-032,API Security,MEDIUM,Emotion Scan Data Integrity,backend/server.js,142,"Emotion scan returns real analysis results","Implement real inference or clearly mark as simulated",PASS
+TC-033,API Security,LOW,Rate Limiter Configuration,backend/server.js,23,"Rate limiter returns proper JSON error responses","Custom handler with JSON response and Retry-After header",PASS
+TC-034,API Security,MEDIUM,User ID Generation,backend/server.js,88,"User IDs are cryptographically random UUIDs","Use crypto.randomUUID() for all identifiers",PASS
+TC-035,Business Logic,HIGH,Signup Race Condition Prevention,backend/server.js,54,"Atomic check-and-insert prevents duplicate accounts","Use database-level unique constraint or mutex",PASS
+TC-036,Business Logic,MEDIUM,Server-Side Auth Enforcement,local-auth.js,53,"All data access requires server-verified JWT","Server-side auth for all data, client guards are UX only",PASS
+TC-037,Business Logic,MEDIUM,Wellness Data Accuracy,firebase-main.js,449,"Trend percentages computed from real data","Calculate actual deltas from stored historical data",PASS
+TC-038,Infrastructure,HIGH,Android Backup Security,AndroidManifest.xml,16,"ADB backup disabled for sensitive app data","Set allowBackup=false, configure backup exclusion rules",PASS
+TC-039,Infrastructure,HIGH,Network Transport Security,AndroidManifest.xml,25,"Cleartext traffic disabled globally","Remove usesCleartextTraffic=true, restrict to debug only",PASS
+TC-040,Infrastructure,MEDIUM,WebView Security Configuration,MainActivity.kt,61,"WebView configured with strict security settings","Set MIXED_CONTENT_NEVER_ALLOW, disable file access",PASS

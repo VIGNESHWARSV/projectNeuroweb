@@ -256,6 +256,8 @@ window.setupVoice = function() {
 
 // 3. Face Recognition
 let stream = null;
+let currentDeviceIndex = 0;
+
 window.setupCamera = async function() {
     const video = document.getElementById('face-video');
     const status = document.getElementById('face-status');
@@ -274,13 +276,27 @@ window.setupCamera = async function() {
 
         status.innerText = 'Requesting camera access...';
         
-        stream = await navigator.mediaDevices.getUserMedia({ 
+        const devices = await navigator.mediaDevices.enumerateDevices();
+        const videoDevices = devices.filter(d => d.kind === 'videoinput');
+        
+        let constraints = { 
             video: { 
-                facingMode: 'user',
                 width: { ideal: 1280 },
-                height: { ideal: 720 }
+                height: { ideal: 720 } 
             } 
-        });
+        };
+        
+        if (videoDevices.length > 0) {
+            if (currentDeviceIndex >= videoDevices.length) currentDeviceIndex = 0;
+            constraints.video.deviceId = { exact: videoDevices[currentDeviceIndex].deviceId };
+            const deviceLabel = videoDevices[currentDeviceIndex].label || `Camera ${currentDeviceIndex + 1}`;
+            status.innerText = `Connecting to ${deviceLabel}...`;
+            currentDeviceIndex++;
+        } else {
+            constraints.video.facingMode = 'user';
+        }
+        
+        stream = await navigator.mediaDevices.getUserMedia(constraints);
         
         video.srcObject = stream;
         video.onloadedmetadata = () => {
@@ -551,11 +567,15 @@ function updateMoodRecommendations(score) {
         item.className = 'p-3 mb-2 d-flex align-items-center';
         item.style.background = 'rgba(var(--primary-rgb), 0.05)';
         item.style.borderRadius = '12px';
+        const escapeHtml = (str) => {
+            if (!str) return '';
+            return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        };
         item.innerHTML = `
-            <div style="font-size: 1.2rem; margin-right: 12px;">${rec.type}</div>
+            <div style="font-size: 1.2rem; margin-right: 12px;">${escapeHtml(rec.type)}</div>
             <div>
-                <p style="font-weight: bold; font-size: 0.8rem; margin-bottom: 2px;">${rec.title} ${rec.artist ? ' - ' + rec.artist : ''}</p>
-                <p class="text-muted" style="font-size: 0.7rem;">${rec.desc}</p>
+                <p style="font-weight: bold; font-size: 0.8rem; margin-bottom: 2px;">${escapeHtml(rec.title)} ${rec.artist ? ' - ' + escapeHtml(rec.artist) : ''}</p>
+                <p class="text-muted" style="font-size: 0.7rem;">${escapeHtml(rec.desc)}</p>
             </div>
         `;
         recList.appendChild(item);

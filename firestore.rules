@@ -27,10 +27,24 @@ service cloud.firestore {
       allow read, write: if isAuthenticated() && isOwner(userId);
     }
 
-    // Mood Tracking: Only the owner can read/write their mood entries
+    // Mood Tracking: Separate rules for reads and writes
     match /moodTracking/{docId} {
-      allow read, write: if isAuthenticated() && request.resource.data.uid == request.auth.uid;
-      allow list: if isAuthenticated() && resource.data.uid == request.auth.uid;
+      // For create/update, check the incoming data's uid
+      allow write: if isAuthenticated() && request.resource.data.uid == request.auth.uid;
+      // For reads, check the existing document's uid
+      allow read: if isAuthenticated() && resource.data.uid == request.auth.uid;
+    }
+
+    // Analysis Results: Only the owner can read/write
+    match /analysisResults/{docId} {
+      allow write: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow read: if isAuthenticated() && resource.data.userId == request.auth.uid;
+    }
+    
+    // Voice Journals: Only the owner can read/write
+    match /voiceJournals/{docId} {
+      allow write: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow read: if isAuthenticated() && resource.data.userId == request.auth.uid;
     }
 
     // Notification Preferences: Only the owner can read/write

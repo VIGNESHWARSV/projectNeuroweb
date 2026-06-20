@@ -1,18 +1,26 @@
 // NeuroWell Local Auth & Data Controller
-// Replaces Firebase with local Express backend + localStorage session
+// Secured version using sessionStorage and JWT Bearer Tokens
 
 const API = 'http://localhost:3000/api';
 
 // ─── Session Helpers ───────────────────────────────────────────────────────────
 function getSession() {
-    const raw = localStorage.getItem('nw_user');
+    const raw = sessionStorage.getItem('nw_user');
     return raw ? JSON.parse(raw) : null;
 }
 function setSession(data) {
-    localStorage.setItem('nw_user', JSON.stringify(data));
+    sessionStorage.setItem('nw_user', JSON.stringify(data));
 }
 function clearSession() {
-    localStorage.removeItem('nw_user');
+    sessionStorage.removeItem('nw_user');
+}
+function authHeaders() {
+    const session = getSession();
+    const token = session ? session.token : '';
+    return { 
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${token}`
+    };
 }
 
 // ─── Update UI with logged-in user ────────────────────────────────────────────
@@ -163,8 +171,8 @@ document.addEventListener('DOMContentLoaded', () => {
             try {
                 await fetch(`${API}/user/profile`, {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ userId: session.email, age, gender })
+                    headers: authHeaders(),
+                    body: JSON.stringify({ age, gender })
                 });
             } catch (e) { /* offline — proceed anyway */ }
 
@@ -190,8 +198,8 @@ document.addEventListener('DOMContentLoaded', () => {
             try {
                 await fetch(`${API}/user/questionnaire`, {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ userId: session.email, ...answers })
+                    headers: authHeaders(),
+                    body: JSON.stringify(answers)
                 });
             } catch (e) { /* offline — proceed anyway */ }
 
@@ -213,8 +221,8 @@ document.addEventListener('DOMContentLoaded', () => {
             try {
                 await fetch(`${API}/user/goals`, {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ userId: session.email, goals: selectedGoals })
+                    headers: authHeaders(),
+                    body: JSON.stringify({ goals: selectedGoals })
                 });
             } catch (e) { /* offline — proceed anyway */ }
 
@@ -238,8 +246,8 @@ document.addEventListener('DOMContentLoaded', () => {
             try {
                 await fetch(`${API}/user/notifications`, {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ userId: session.email, ...prefs })
+                    headers: authHeaders(),
+                    body: JSON.stringify(prefs)
                 });
             } catch (e) { /* offline — proceed anyway */ }
 
@@ -269,8 +277,8 @@ document.addEventListener('DOMContentLoaded', () => {
             try {
                 await fetch(`${API}/user/mood`, {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ userId: session.email, ...moodData })
+                    headers: authHeaders(),
+                    body: JSON.stringify(moodData)
                 });
                 alert('Mood logged successfully!');
                 window.navigate('16-dashboard-main');
