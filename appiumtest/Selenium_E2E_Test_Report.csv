@@ -1,0 +1,11 @@
+TC-ID,Test Title,Description,Status,Notes
+TC-E2E-001,Initialize WebDriver,Chrome WebDriver launched successfully in headless mode,PASS,
+TC-E2E-002,App Load,Application loaded successfully at local route,PASS,
+TC-E2E-003,Locate Login Elements,Found email password and login button elements using ID selectors,PASS,
+TC-E2E-004,Data Entry,Input username (vigneshwarsv0714@gmail.com) and password (Vignesh123),PASS,
+TC-E2E-005,Submit Credentials,Clicked login button successfully without UI crash,PASS,
+TC-E2E-006,Login API Intercept,Firebase authentication check bypassed successfully for local environment test,PASS,
+TC-E2E-007,Invalid Login Test,Attempt login with incorrect password triggers generic error modal,PASS,
+TC-E2E-008,Empty Form Test,Attempt login with empty fields triggers HTML5 validation,PASS,
+TC-E2E-009,SQLi Payload Test,Attempt login with payload ' OR 1=1 -- is blocked by validation,PASS,
+TC-E2E-010,Session Validation,Dashboard view activated successfully post-login,PASS,

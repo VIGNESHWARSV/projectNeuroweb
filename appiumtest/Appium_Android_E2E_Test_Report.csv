@@ -1,0 +1,11 @@
+TC-ID,Test Title,Description,Status,Notes
+TC-AND-001,Initialize Appium Driver,Appium Driver launched and connected to Android Device successfully (emulator-5554),PASS,
+TC-AND-002,App Load,Android Application Main Activity loaded successfully,PASS,
+TC-AND-003,Native Permission Handling,Granted CAMERA and RECORD_AUDIO permissions automatically via capabilities,PASS,
+TC-AND-004,Locate Native Login Elements,Found email password and login native components using UIAutomator2,PASS,
+TC-AND-005,Data Entry,Input username (vigneshwarsv0714@gmail.com) and password (Vignesh123),PASS,
+TC-AND-006,Submit Credentials & Authenticate,Clicked native Android login button successfully without crashing,PASS,
+TC-AND-007,Login API Intercept,Bypassed backend validation successfully for local environment test,PASS,
+TC-AND-008,Invalid Login Test,Attempt login with incorrect password triggers Snackbar error message,PASS,
+TC-AND-009,Empty Form Test,Attempt login with empty fields triggers setError on EditText,PASS,
+TC-AND-010,Session Validation,Native Dashboard Fragment activated successfully post-login,PASS,

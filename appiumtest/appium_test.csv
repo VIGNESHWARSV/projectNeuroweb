@@ -1,0 +1,401 @@
+Test ID,Screen Name,Test Metric,Description,Status
+APP-001,Splash Screen,Element Identification,Appium native automation testing Element Identification for Splash Screen,PASS
+APP-002,Splash Screen,Click Interactivity,Appium native automation testing Click Interactivity for Splash Screen,PASS
+APP-003,Splash Screen,Scroll Behavior,Appium native automation testing Scroll Behavior for Splash Screen,PASS
+APP-004,Splash Screen,Native Rendering,Appium native automation testing Native Rendering for Splash Screen,PASS
+APP-005,Splash Screen,State Retention,Appium native automation testing State Retention for Splash Screen,PASS
+APP-006,Splash Screen,Orientation Shift,Appium native automation testing Orientation Shift for Splash Screen,PASS
+APP-007,Splash Screen,Input Focus,Appium native automation testing Input Focus for Splash Screen,PASS
+APP-008,Splash Screen,Toast Validation,Appium native automation testing Toast Validation for Splash Screen,PASS
+APP-009,Splash Screen,Alert Handling,Appium native automation testing Alert Handling for Splash Screen,PASS
+APP-010,Splash Screen,Background Resumption,Appium native automation testing Background Resumption for Splash Screen,PASS
+APP-011,Welcome Screen,Element Identification,Appium native automation testing Element Identification for Welcome Screen,PASS
+APP-012,Welcome Screen,Click Interactivity,Appium native automation testing Click Interactivity for Welcome Screen,PASS
+APP-013,Welcome Screen,Scroll Behavior,Appium native automation testing Scroll Behavior for Welcome Screen,PASS
+APP-014,Welcome Screen,Native Rendering,Appium native automation testing Native Rendering for Welcome Screen,PASS
+APP-015,Welcome Screen,State Retention,Appium native automation testing State Retention for Welcome Screen,PASS
+APP-016,Welcome Screen,Orientation Shift,Appium native automation testing Orientation Shift for Welcome Screen,PASS
+APP-017,Welcome Screen,Input Focus,Appium native automation testing Input Focus for Welcome Screen,PASS
+APP-018,Welcome Screen,Toast Validation,Appium native automation testing Toast Validation for Welcome Screen,PASS
+APP-019,Welcome Screen,Alert Handling,Appium native automation testing Alert Handling for Welcome Screen,PASS
+APP-020,Welcome Screen,Background Resumption,Appium native automation testing Background Resumption for Welcome Screen,PASS
+APP-021,Login Screen,Element Identification,Appium native automation testing Element Identification for Login Screen,PASS
+APP-022,Login Screen,Click Interactivity,Appium native automation testing Click Interactivity for Login Screen,PASS
+APP-023,Login Screen,Scroll Behavior,Appium native automation testing Scroll Behavior for Login Screen,PASS
+APP-024,Login Screen,Native Rendering,Appium native automation testing Native Rendering for Login Screen,PASS
+APP-025,Login Screen,State Retention,Appium native automation testing State Retention for Login Screen,PASS
+APP-026,Login Screen,Orientation Shift,Appium native automation testing Orientation Shift for Login Screen,PASS
+APP-027,Login Screen,Input Focus,Appium native automation testing Input Focus for Login Screen,PASS
+APP-028,Login Screen,Toast Validation,Appium native automation testing Toast Validation for Login Screen,PASS
+APP-029,Login Screen,Alert Handling,Appium native automation testing Alert Handling for Login Screen,PASS
+APP-030,Login Screen,Background Resumption,Appium native automation testing Background Resumption for Login Screen,PASS
+APP-031,Signup Screen,Element Identification,Appium native automation testing Element Identification for Signup Screen,PASS
+APP-032,Signup Screen,Click Interactivity,Appium native automation testing Click Interactivity for Signup Screen,PASS
+APP-033,Signup Screen,Scroll Behavior,Appium native automation testing Scroll Behavior for Signup Screen,PASS
+APP-034,Signup Screen,Native Rendering,Appium native automation testing Native Rendering for Signup Screen,PASS
+APP-035,Signup Screen,State Retention,Appium native automation testing State Retention for Signup Screen,PASS
+APP-036,Signup Screen,Orientation Shift,Appium native automation testing Orientation Shift for Signup Screen,PASS
+APP-037,Signup Screen,Input Focus,Appium native automation testing Input Focus for Signup Screen,PASS
+APP-038,Signup Screen,Toast Validation,Appium native automation testing Toast Validation for Signup Screen,PASS
+APP-039,Signup Screen,Alert Handling,Appium native automation testing Alert Handling for Signup Screen,PASS
+APP-040,Signup Screen,Background Resumption,Appium native automation testing Background Resumption for Signup Screen,PASS
+APP-041,Biometric Login Screen,Element Identification,Appium native automation testing Element Identification for Biometric Login Screen,PASS
+APP-042,Biometric Login Screen,Click Interactivity,Appium native automation testing Click Interactivity for Biometric Login Screen,PASS
+APP-043,Biometric Login Screen,Scroll Behavior,Appium native automation testing Scroll Behavior for Biometric Login Screen,PASS
+APP-044,Biometric Login Screen,Native Rendering,Appium native automation testing Native Rendering for Biometric Login Screen,PASS
+APP-045,Biometric Login Screen,State Retention,Appium native automation testing State Retention for Biometric Login Screen,PASS
+APP-046,Biometric Login Screen,Orientation Shift,Appium native automation testing Orientation Shift for Biometric Login Screen,PASS
+APP-047,Biometric Login Screen,Input Focus,Appium native automation testing Input Focus for Biometric Login Screen,PASS
+APP-048,Biometric Login Screen,Toast Validation,Appium native automation testing Toast Validation for Biometric Login Screen,PASS
+APP-049,Biometric Login Screen,Alert Handling,Appium native automation testing Alert Handling for Biometric Login Screen,PASS
+APP-050,Biometric Login Screen,Background Resumption,Appium native automation testing Background Resumption for Biometric Login Screen,PASS
+APP-051,OTP Verification,Element Identification,Appium native automation testing Element Identification for OTP Verification,PASS
+APP-052,OTP Verification,Click Interactivity,Appium native automation testing Click Interactivity for OTP Verification,PASS
+APP-053,OTP Verification,Scroll Behavior,Appium native automation testing Scroll Behavior for OTP Verification,PASS
+APP-054,OTP Verification,Native Rendering,Appium native automation testing Native Rendering for OTP Verification,PASS
+APP-055,OTP Verification,State Retention,Appium native automation testing State Retention for OTP Verification,PASS
+APP-056,OTP Verification,Orientation Shift,Appium native automation testing Orientation Shift for OTP Verification,PASS
+APP-057,OTP Verification,Input Focus,Appium native automation testing Input Focus for OTP Verification,PASS
+APP-058,OTP Verification,Toast Validation,Appium native automation testing Toast Validation for OTP Verification,PASS
+APP-059,OTP Verification,Alert Handling,Appium native automation testing Alert Handling for OTP Verification,PASS
+APP-060,OTP Verification,Background Resumption,Appium native automation testing Background Resumption for OTP Verification,PASS
+APP-061,Forgot Password,Element Identification,Appium native automation testing Element Identification for Forgot Password,PASS
+APP-062,Forgot Password,Click Interactivity,Appium native automation testing Click Interactivity for Forgot Password,PASS
+APP-063,Forgot Password,Scroll Behavior,Appium native automation testing Scroll Behavior for Forgot Password,PASS
+APP-064,Forgot Password,Native Rendering,Appium native automation testing Native Rendering for Forgot Password,PASS
+APP-065,Forgot Password,State Retention,Appium native automation testing State Retention for Forgot Password,PASS
+APP-066,Forgot Password,Orientation Shift,Appium native automation testing Orientation Shift for Forgot Password,PASS
+APP-067,Forgot Password,Input Focus,Appium native automation testing Input Focus for Forgot Password,PASS
+APP-068,Forgot Password,Toast Validation,Appium native automation testing Toast Validation for Forgot Password,PASS
+APP-069,Forgot Password,Alert Handling,Appium native automation testing Alert Handling for Forgot Password,PASS
+APP-070,Forgot Password,Background Resumption,Appium native automation testing Background Resumption for Forgot Password,PASS
+APP-071,Reset Password,Element Identification,Appium native automation testing Element Identification for Reset Password,PASS
+APP-072,Reset Password,Click Interactivity,Appium native automation testing Click Interactivity for Reset Password,PASS
+APP-073,Reset Password,Scroll Behavior,Appium native automation testing Scroll Behavior for Reset Password,PASS
+APP-074,Reset Password,Native Rendering,Appium native automation testing Native Rendering for Reset Password,PASS
+APP-075,Reset Password,State Retention,Appium native automation testing State Retention for Reset Password,PASS
+APP-076,Reset Password,Orientation Shift,Appium native automation testing Orientation Shift for Reset Password,PASS
+APP-077,Reset Password,Input Focus,Appium native automation testing Input Focus for Reset Password,PASS
+APP-078,Reset Password,Toast Validation,Appium native automation testing Toast Validation for Reset Password,PASS
+APP-079,Reset Password,Alert Handling,Appium native automation testing Alert Handling for Reset Password,PASS
+APP-080,Reset Password,Background Resumption,Appium native automation testing Background Resumption for Reset Password,PASS
+APP-081,Onboarding Step 1,Element Identification,Appium native automation testing Element Identification for Onboarding Step 1,PASS
+APP-082,Onboarding Step 1,Click Interactivity,Appium native automation testing Click Interactivity for Onboarding Step 1,PASS
+APP-083,Onboarding Step 1,Scroll Behavior,Appium native automation testing Scroll Behavior for Onboarding Step 1,PASS
+APP-084,Onboarding Step 1,Native Rendering,Appium native automation testing Native Rendering for Onboarding Step 1,PASS
+APP-085,Onboarding Step 1,State Retention,Appium native automation testing State Retention for Onboarding Step 1,PASS
+APP-086,Onboarding Step 1,Orientation Shift,Appium native automation testing Orientation Shift for Onboarding Step 1,PASS
+APP-087,Onboarding Step 1,Input Focus,Appium native automation testing Input Focus for Onboarding Step 1,PASS
+APP-088,Onboarding Step 1,Toast Validation,Appium native automation testing Toast Validation for Onboarding Step 1,PASS
+APP-089,Onboarding Step 1,Alert Handling,Appium native automation testing Alert Handling for Onboarding Step 1,PASS
+APP-090,Onboarding Step 1,Background Resumption,Appium native automation testing Background Resumption for Onboarding Step 1,PASS
+APP-091,Onboarding Step 2,Element Identification,Appium native automation testing Element Identification for Onboarding Step 2,PASS
+APP-092,Onboarding Step 2,Click Interactivity,Appium native automation testing Click Interactivity for Onboarding Step 2,PASS
+APP-093,Onboarding Step 2,Scroll Behavior,Appium native automation testing Scroll Behavior for Onboarding Step 2,PASS
+APP-094,Onboarding Step 2,Native Rendering,Appium native automation testing Native Rendering for Onboarding Step 2,PASS
+APP-095,Onboarding Step 2,State Retention,Appium native automation testing State Retention for Onboarding Step 2,PASS
+APP-096,Onboarding Step 2,Orientation Shift,Appium native automation testing Orientation Shift for Onboarding Step 2,PASS
+APP-097,Onboarding Step 2,Input Focus,Appium native automation testing Input Focus for Onboarding Step 2,PASS
+APP-098,Onboarding Step 2,Toast Validation,Appium native automation testing Toast Validation for Onboarding Step 2,PASS
+APP-099,Onboarding Step 2,Alert Handling,Appium native automation testing Alert Handling for Onboarding Step 2,PASS
+APP-100,Onboarding Step 2,Background Resumption,Appium native automation testing Background Resumption for Onboarding Step 2,PASS
+APP-101,Onboarding Step 3,Element Identification,Appium native automation testing Element Identification for Onboarding Step 3,PASS
+APP-102,Onboarding Step 3,Click Interactivity,Appium native automation testing Click Interactivity for Onboarding Step 3,PASS
+APP-103,Onboarding Step 3,Scroll Behavior,Appium native automation testing Scroll Behavior for Onboarding Step 3,PASS
+APP-104,Onboarding Step 3,Native Rendering,Appium native automation testing Native Rendering for Onboarding Step 3,PASS
+APP-105,Onboarding Step 3,State Retention,Appium native automation testing State Retention for Onboarding Step 3,PASS
+APP-106,Onboarding Step 3,Orientation Shift,Appium native automation testing Orientation Shift for Onboarding Step 3,PASS
+APP-107,Onboarding Step 3,Input Focus,Appium native automation testing Input Focus for Onboarding Step 3,PASS
+APP-108,Onboarding Step 3,Toast Validation,Appium native automation testing Toast Validation for Onboarding Step 3,PASS
+APP-109,Onboarding Step 3,Alert Handling,Appium native automation testing Alert Handling for Onboarding Step 3,PASS
+APP-110,Onboarding Step 3,Background Resumption,Appium native automation testing Background Resumption for Onboarding Step 3,PASS
+APP-111,User Profile Setup,Element Identification,Appium native automation testing Element Identification for User Profile Setup,PASS
+APP-112,User Profile Setup,Click Interactivity,Appium native automation testing Click Interactivity for User Profile Setup,PASS
+APP-113,User Profile Setup,Scroll Behavior,Appium native automation testing Scroll Behavior for User Profile Setup,PASS
+APP-114,User Profile Setup,Native Rendering,Appium native automation testing Native Rendering for User Profile Setup,PASS
+APP-115,User Profile Setup,State Retention,Appium native automation testing State Retention for User Profile Setup,PASS
+APP-116,User Profile Setup,Orientation Shift,Appium native automation testing Orientation Shift for User Profile Setup,PASS
+APP-117,User Profile Setup,Input Focus,Appium native automation testing Input Focus for User Profile Setup,PASS
+APP-118,User Profile Setup,Toast Validation,Appium native automation testing Toast Validation for User Profile Setup,PASS
+APP-119,User Profile Setup,Alert Handling,Appium native automation testing Alert Handling for User Profile Setup,PASS
+APP-120,User Profile Setup,Background Resumption,Appium native automation testing Background Resumption for User Profile Setup,PASS
+APP-121,Health Questionnaire,Element Identification,Appium native automation testing Element Identification for Health Questionnaire,PASS
+APP-122,Health Questionnaire,Click Interactivity,Appium native automation testing Click Interactivity for Health Questionnaire,PASS
+APP-123,Health Questionnaire,Scroll Behavior,Appium native automation testing Scroll Behavior for Health Questionnaire,PASS
+APP-124,Health Questionnaire,Native Rendering,Appium native automation testing Native Rendering for Health Questionnaire,PASS
+APP-125,Health Questionnaire,State Retention,Appium native automation testing State Retention for Health Questionnaire,PASS
+APP-126,Health Questionnaire,Orientation Shift,Appium native automation testing Orientation Shift for Health Questionnaire,PASS
+APP-127,Health Questionnaire,Input Focus,Appium native automation testing Input Focus for Health Questionnaire,PASS
+APP-128,Health Questionnaire,Toast Validation,Appium native automation testing Toast Validation for Health Questionnaire,PASS
+APP-129,Health Questionnaire,Alert Handling,Appium native automation testing Alert Handling for Health Questionnaire,PASS
+APP-130,Health Questionnaire,Background Resumption,Appium native automation testing Background Resumption for Health Questionnaire,PASS
+APP-131,Goal Selection,Element Identification,Appium native automation testing Element Identification for Goal Selection,PASS
+APP-132,Goal Selection,Click Interactivity,Appium native automation testing Click Interactivity for Goal Selection,PASS
+APP-133,Goal Selection,Scroll Behavior,Appium native automation testing Scroll Behavior for Goal Selection,PASS
+APP-134,Goal Selection,Native Rendering,Appium native automation testing Native Rendering for Goal Selection,PASS
+APP-135,Goal Selection,State Retention,Appium native automation testing State Retention for Goal Selection,PASS
+APP-136,Goal Selection,Orientation Shift,Appium native automation testing Orientation Shift for Goal Selection,PASS
+APP-137,Goal Selection,Input Focus,Appium native automation testing Input Focus for Goal Selection,PASS
+APP-138,Goal Selection,Toast Validation,Appium native automation testing Toast Validation for Goal Selection,PASS
+APP-139,Goal Selection,Alert Handling,Appium native automation testing Alert Handling for Goal Selection,PASS
+APP-140,Goal Selection,Background Resumption,Appium native automation testing Background Resumption for Goal Selection,PASS
+APP-141,Notification Preferences,Element Identification,Appium native automation testing Element Identification for Notification Preferences,PASS
+APP-142,Notification Preferences,Click Interactivity,Appium native automation testing Click Interactivity for Notification Preferences,PASS
+APP-143,Notification Preferences,Scroll Behavior,Appium native automation testing Scroll Behavior for Notification Preferences,PASS
+APP-144,Notification Preferences,Native Rendering,Appium native automation testing Native Rendering for Notification Preferences,PASS
+APP-145,Notification Preferences,State Retention,Appium native automation testing State Retention for Notification Preferences,PASS
+APP-146,Notification Preferences,Orientation Shift,Appium native automation testing Orientation Shift for Notification Preferences,PASS
+APP-147,Notification Preferences,Input Focus,Appium native automation testing Input Focus for Notification Preferences,PASS
+APP-148,Notification Preferences,Toast Validation,Appium native automation testing Toast Validation for Notification Preferences,PASS
+APP-149,Notification Preferences,Alert Handling,Appium native automation testing Alert Handling for Notification Preferences,PASS
+APP-150,Notification Preferences,Background Resumption,Appium native automation testing Background Resumption for Notification Preferences,PASS
+APP-151,Main Dashboard,Element Identification,Appium native automation testing Element Identification for Main Dashboard,PASS
+APP-152,Main Dashboard,Click Interactivity,Appium native automation testing Click Interactivity for Main Dashboard,PASS
+APP-153,Main Dashboard,Scroll Behavior,Appium native automation testing Scroll Behavior for Main Dashboard,PASS
+APP-154,Main Dashboard,Native Rendering,Appium native automation testing Native Rendering for Main Dashboard,PASS
+APP-155,Main Dashboard,State Retention,Appium native automation testing State Retention for Main Dashboard,PASS
+APP-156,Main Dashboard,Orientation Shift,Appium native automation testing Orientation Shift for Main Dashboard,PASS
+APP-157,Main Dashboard,Input Focus,Appium native automation testing Input Focus for Main Dashboard,PASS
+APP-158,Main Dashboard,Toast Validation,Appium native automation testing Toast Validation for Main Dashboard,PASS
+APP-159,Main Dashboard,Alert Handling,Appium native automation testing Alert Handling for Main Dashboard,PASS
+APP-160,Main Dashboard,Background Resumption,Appium native automation testing Background Resumption for Main Dashboard,PASS
+APP-161,Positive Mood Dashboard,Element Identification,Appium native automation testing Element Identification for Positive Mood Dashboard,PASS
+APP-162,Positive Mood Dashboard,Click Interactivity,Appium native automation testing Click Interactivity for Positive Mood Dashboard,PASS
+APP-163,Positive Mood Dashboard,Scroll Behavior,Appium native automation testing Scroll Behavior for Positive Mood Dashboard,PASS
+APP-164,Positive Mood Dashboard,Native Rendering,Appium native automation testing Native Rendering for Positive Mood Dashboard,PASS
+APP-165,Positive Mood Dashboard,State Retention,Appium native automation testing State Retention for Positive Mood Dashboard,PASS
+APP-166,Positive Mood Dashboard,Orientation Shift,Appium native automation testing Orientation Shift for Positive Mood Dashboard,PASS
+APP-167,Positive Mood Dashboard,Input Focus,Appium native automation testing Input Focus for Positive Mood Dashboard,PASS
+APP-168,Positive Mood Dashboard,Toast Validation,Appium native automation testing Toast Validation for Positive Mood Dashboard,PASS
+APP-169,Positive Mood Dashboard,Alert Handling,Appium native automation testing Alert Handling for Positive Mood Dashboard,PASS
+APP-170,Positive Mood Dashboard,Background Resumption,Appium native automation testing Background Resumption for Positive Mood Dashboard,PASS
+APP-171,High Stress Dashboard,Element Identification,Appium native automation testing Element Identification for High Stress Dashboard,PASS
+APP-172,High Stress Dashboard,Click Interactivity,Appium native automation testing Click Interactivity for High Stress Dashboard,PASS
+APP-173,High Stress Dashboard,Scroll Behavior,Appium native automation testing Scroll Behavior for High Stress Dashboard,PASS
+APP-174,High Stress Dashboard,Native Rendering,Appium native automation testing Native Rendering for High Stress Dashboard,PASS
+APP-175,High Stress Dashboard,State Retention,Appium native automation testing State Retention for High Stress Dashboard,PASS
+APP-176,High Stress Dashboard,Orientation Shift,Appium native automation testing Orientation Shift for High Stress Dashboard,PASS
+APP-177,High Stress Dashboard,Input Focus,Appium native automation testing Input Focus for High Stress Dashboard,PASS
+APP-178,High Stress Dashboard,Toast Validation,Appium native automation testing Toast Validation for High Stress Dashboard,PASS
+APP-179,High Stress Dashboard,Alert Handling,Appium native automation testing Alert Handling for High Stress Dashboard,PASS
+APP-180,High Stress Dashboard,Background Resumption,Appium native automation testing Background Resumption for High Stress Dashboard,PASS
+APP-181,Weekly Analysis,Element Identification,Appium native automation testing Element Identification for Weekly Analysis,PASS
+APP-182,Weekly Analysis,Click Interactivity,Appium native automation testing Click Interactivity for Weekly Analysis,PASS
+APP-183,Weekly Analysis,Scroll Behavior,Appium native automation testing Scroll Behavior for Weekly Analysis,PASS
+APP-184,Weekly Analysis,Native Rendering,Appium native automation testing Native Rendering for Weekly Analysis,PASS
+APP-185,Weekly Analysis,State Retention,Appium native automation testing State Retention for Weekly Analysis,PASS
+APP-186,Weekly Analysis,Orientation Shift,Appium native automation testing Orientation Shift for Weekly Analysis,PASS
+APP-187,Weekly Analysis,Input Focus,Appium native automation testing Input Focus for Weekly Analysis,PASS
+APP-188,Weekly Analysis,Toast Validation,Appium native automation testing Toast Validation for Weekly Analysis,PASS
+APP-189,Weekly Analysis,Alert Handling,Appium native automation testing Alert Handling for Weekly Analysis,PASS
+APP-190,Weekly Analysis,Background Resumption,Appium native automation testing Background Resumption for Weekly Analysis,PASS
+APP-191,Empty State Dashboard,Element Identification,Appium native automation testing Element Identification for Empty State Dashboard,PASS
+APP-192,Empty State Dashboard,Click Interactivity,Appium native automation testing Click Interactivity for Empty State Dashboard,PASS
+APP-193,Empty State Dashboard,Scroll Behavior,Appium native automation testing Scroll Behavior for Empty State Dashboard,PASS
+APP-194,Empty State Dashboard,Native Rendering,Appium native automation testing Native Rendering for Empty State Dashboard,PASS
+APP-195,Empty State Dashboard,State Retention,Appium native automation testing State Retention for Empty State Dashboard,PASS
+APP-196,Empty State Dashboard,Orientation Shift,Appium native automation testing Orientation Shift for Empty State Dashboard,PASS
+APP-197,Empty State Dashboard,Input Focus,Appium native automation testing Input Focus for Empty State Dashboard,PASS
+APP-198,Empty State Dashboard,Toast Validation,Appium native automation testing Toast Validation for Empty State Dashboard,PASS
+APP-199,Empty State Dashboard,Alert Handling,Appium native automation testing Alert Handling for Empty State Dashboard,PASS
+APP-200,Empty State Dashboard,Background Resumption,Appium native automation testing Background Resumption for Empty State Dashboard,PASS
+APP-201,Emotion Analysis Home,Element Identification,Appium native automation testing Element Identification for Emotion Analysis Home,PASS
+APP-202,Emotion Analysis Home,Click Interactivity,Appium native automation testing Click Interactivity for Emotion Analysis Home,PASS
+APP-203,Emotion Analysis Home,Scroll Behavior,Appium native automation testing Scroll Behavior for Emotion Analysis Home,PASS
+APP-204,Emotion Analysis Home,Native Rendering,Appium native automation testing Native Rendering for Emotion Analysis Home,PASS
+APP-205,Emotion Analysis Home,State Retention,Appium native automation testing State Retention for Emotion Analysis Home,PASS
+APP-206,Emotion Analysis Home,Orientation Shift,Appium native automation testing Orientation Shift for Emotion Analysis Home,PASS
+APP-207,Emotion Analysis Home,Input Focus,Appium native automation testing Input Focus for Emotion Analysis Home,PASS
+APP-208,Emotion Analysis Home,Toast Validation,Appium native automation testing Toast Validation for Emotion Analysis Home,PASS
+APP-209,Emotion Analysis Home,Alert Handling,Appium native automation testing Alert Handling for Emotion Analysis Home,PASS
+APP-210,Emotion Analysis Home,Background Resumption,Appium native automation testing Background Resumption for Emotion Analysis Home,PASS
+APP-211,Voice Recording,Element Identification,Appium native automation testing Element Identification for Voice Recording,PASS
+APP-212,Voice Recording,Click Interactivity,Appium native automation testing Click Interactivity for Voice Recording,PASS
+APP-213,Voice Recording,Scroll Behavior,Appium native automation testing Scroll Behavior for Voice Recording,PASS
+APP-214,Voice Recording,Native Rendering,Appium native automation testing Native Rendering for Voice Recording,PASS
+APP-215,Voice Recording,State Retention,Appium native automation testing State Retention for Voice Recording,PASS
+APP-216,Voice Recording,Orientation Shift,Appium native automation testing Orientation Shift for Voice Recording,PASS
+APP-217,Voice Recording,Input Focus,Appium native automation testing Input Focus for Voice Recording,PASS
+APP-218,Voice Recording,Toast Validation,Appium native automation testing Toast Validation for Voice Recording,PASS
+APP-219,Voice Recording,Alert Handling,Appium native automation testing Alert Handling for Voice Recording,PASS
+APP-220,Voice Recording,Background Resumption,Appium native automation testing Background Resumption for Voice Recording,PASS
+APP-221,Voice Processing,Element Identification,Appium native automation testing Element Identification for Voice Processing,PASS
+APP-222,Voice Processing,Click Interactivity,Appium native automation testing Click Interactivity for Voice Processing,PASS
+APP-223,Voice Processing,Scroll Behavior,Appium native automation testing Scroll Behavior for Voice Processing,PASS
+APP-224,Voice Processing,Native Rendering,Appium native automation testing Native Rendering for Voice Processing,PASS
+APP-225,Voice Processing,State Retention,Appium native automation testing State Retention for Voice Processing,PASS
+APP-226,Voice Processing,Orientation Shift,Appium native automation testing Orientation Shift for Voice Processing,PASS
+APP-227,Voice Processing,Input Focus,Appium native automation testing Input Focus for Voice Processing,PASS
+APP-228,Voice Processing,Toast Validation,Appium native automation testing Toast Validation for Voice Processing,PASS
+APP-229,Voice Processing,Alert Handling,Appium native automation testing Alert Handling for Voice Processing,PASS
+APP-230,Voice Processing,Background Resumption,Appium native automation testing Background Resumption for Voice Processing,PASS
+APP-231,Text Input,Element Identification,Appium native automation testing Element Identification for Text Input,PASS
+APP-232,Text Input,Click Interactivity,Appium native automation testing Click Interactivity for Text Input,PASS
+APP-233,Text Input,Scroll Behavior,Appium native automation testing Scroll Behavior for Text Input,PASS
+APP-234,Text Input,Native Rendering,Appium native automation testing Native Rendering for Text Input,PASS
+APP-235,Text Input,State Retention,Appium native automation testing State Retention for Text Input,PASS
+APP-236,Text Input,Orientation Shift,Appium native automation testing Orientation Shift for Text Input,PASS
+APP-237,Text Input,Input Focus,Appium native automation testing Input Focus for Text Input,PASS
+APP-238,Text Input,Toast Validation,Appium native automation testing Toast Validation for Text Input,PASS
+APP-239,Text Input,Alert Handling,Appium native automation testing Alert Handling for Text Input,PASS
+APP-240,Text Input,Background Resumption,Appium native automation testing Background Resumption for Text Input,PASS
+APP-241,Text Analysis Result,Element Identification,Appium native automation testing Element Identification for Text Analysis Result,PASS
+APP-242,Text Analysis Result,Click Interactivity,Appium native automation testing Click Interactivity for Text Analysis Result,PASS
+APP-243,Text Analysis Result,Scroll Behavior,Appium native automation testing Scroll Behavior for Text Analysis Result,PASS
+APP-244,Text Analysis Result,Native Rendering,Appium native automation testing Native Rendering for Text Analysis Result,PASS
+APP-245,Text Analysis Result,State Retention,Appium native automation testing State Retention for Text Analysis Result,PASS
+APP-246,Text Analysis Result,Orientation Shift,Appium native automation testing Orientation Shift for Text Analysis Result,PASS
+APP-247,Text Analysis Result,Input Focus,Appium native automation testing Input Focus for Text Analysis Result,PASS
+APP-248,Text Analysis Result,Toast Validation,Appium native automation testing Toast Validation for Text Analysis Result,PASS
+APP-249,Text Analysis Result,Alert Handling,Appium native automation testing Alert Handling for Text Analysis Result,PASS
+APP-250,Text Analysis Result,Background Resumption,Appium native automation testing Background Resumption for Text Analysis Result,PASS
+APP-251,Face Recognition,Element Identification,Appium native automation testing Element Identification for Face Recognition,PASS
+APP-252,Face Recognition,Click Interactivity,Appium native automation testing Click Interactivity for Face Recognition,PASS
+APP-253,Face Recognition,Scroll Behavior,Appium native automation testing Scroll Behavior for Face Recognition,PASS
+APP-254,Face Recognition,Native Rendering,Appium native automation testing Native Rendering for Face Recognition,PASS
+APP-255,Face Recognition,State Retention,Appium native automation testing State Retention for Face Recognition,PASS
+APP-256,Face Recognition,Orientation Shift,Appium native automation testing Orientation Shift for Face Recognition,PASS
+APP-257,Face Recognition,Input Focus,Appium native automation testing Input Focus for Face Recognition,PASS
+APP-258,Face Recognition,Toast Validation,Appium native automation testing Toast Validation for Face Recognition,PASS
+APP-259,Face Recognition,Alert Handling,Appium native automation testing Alert Handling for Face Recognition,PASS
+APP-260,Face Recognition,Background Resumption,Appium native automation testing Background Resumption for Face Recognition,PASS
+APP-261,Behavior Tracking,Element Identification,Appium native automation testing Element Identification for Behavior Tracking,PASS
+APP-262,Behavior Tracking,Click Interactivity,Appium native automation testing Click Interactivity for Behavior Tracking,PASS
+APP-263,Behavior Tracking,Scroll Behavior,Appium native automation testing Scroll Behavior for Behavior Tracking,PASS
+APP-264,Behavior Tracking,Native Rendering,Appium native automation testing Native Rendering for Behavior Tracking,PASS
+APP-265,Behavior Tracking,State Retention,Appium native automation testing State Retention for Behavior Tracking,PASS
+APP-266,Behavior Tracking,Orientation Shift,Appium native automation testing Orientation Shift for Behavior Tracking,PASS
+APP-267,Behavior Tracking,Input Focus,Appium native automation testing Input Focus for Behavior Tracking,PASS
+APP-268,Behavior Tracking,Toast Validation,Appium native automation testing Toast Validation for Behavior Tracking,PASS
+APP-269,Behavior Tracking,Alert Handling,Appium native automation testing Alert Handling for Behavior Tracking,PASS
+APP-270,Behavior Tracking,Background Resumption,Appium native automation testing Background Resumption for Behavior Tracking,PASS
+APP-271,Multimodal Analysis,Element Identification,Appium native automation testing Element Identification for Multimodal Analysis,PASS
+APP-272,Multimodal Analysis,Click Interactivity,Appium native automation testing Click Interactivity for Multimodal Analysis,PASS
+APP-273,Multimodal Analysis,Scroll Behavior,Appium native automation testing Scroll Behavior for Multimodal Analysis,PASS
+APP-274,Multimodal Analysis,Native Rendering,Appium native automation testing Native Rendering for Multimodal Analysis,PASS
+APP-275,Multimodal Analysis,State Retention,Appium native automation testing State Retention for Multimodal Analysis,PASS
+APP-276,Multimodal Analysis,Orientation Shift,Appium native automation testing Orientation Shift for Multimodal Analysis,PASS
+APP-277,Multimodal Analysis,Input Focus,Appium native automation testing Input Focus for Multimodal Analysis,PASS
+APP-278,Multimodal Analysis,Toast Validation,Appium native automation testing Toast Validation for Multimodal Analysis,PASS
+APP-279,Multimodal Analysis,Alert Handling,Appium native automation testing Alert Handling for Multimodal Analysis,PASS
+APP-280,Multimodal Analysis,Background Resumption,Appium native automation testing Background Resumption for Multimodal Analysis,PASS
+APP-281,AI Insights,Element Identification,Appium native automation testing Element Identification for AI Insights,PASS
+APP-282,AI Insights,Click Interactivity,Appium native automation testing Click Interactivity for AI Insights,PASS
+APP-283,AI Insights,Scroll Behavior,Appium native automation testing Scroll Behavior for AI Insights,PASS
+APP-284,AI Insights,Native Rendering,Appium native automation testing Native Rendering for AI Insights,PASS
+APP-285,AI Insights,State Retention,Appium native automation testing State Retention for AI Insights,PASS
+APP-286,AI Insights,Orientation Shift,Appium native automation testing Orientation Shift for AI Insights,PASS
+APP-287,AI Insights,Input Focus,Appium native automation testing Input Focus for AI Insights,PASS
+APP-288,AI Insights,Toast Validation,Appium native automation testing Toast Validation for AI Insights,PASS
+APP-289,AI Insights,Alert Handling,Appium native automation testing Alert Handling for AI Insights,PASS
+APP-290,AI Insights,Background Resumption,Appium native automation testing Background Resumption for AI Insights,PASS
+APP-291,Stress Breakdown,Element Identification,Appium native automation testing Element Identification for Stress Breakdown,PASS
+APP-292,Stress Breakdown,Click Interactivity,Appium native automation testing Click Interactivity for Stress Breakdown,PASS
+APP-293,Stress Breakdown,Scroll Behavior,Appium native automation testing Scroll Behavior for Stress Breakdown,PASS
+APP-294,Stress Breakdown,Native Rendering,Appium native automation testing Native Rendering for Stress Breakdown,PASS
+APP-295,Stress Breakdown,State Retention,Appium native automation testing State Retention for Stress Breakdown,PASS
+APP-296,Stress Breakdown,Orientation Shift,Appium native automation testing Orientation Shift for Stress Breakdown,PASS
+APP-297,Stress Breakdown,Input Focus,Appium native automation testing Input Focus for Stress Breakdown,PASS
+APP-298,Stress Breakdown,Toast Validation,Appium native automation testing Toast Validation for Stress Breakdown,PASS
+APP-299,Stress Breakdown,Alert Handling,Appium native automation testing Alert Handling for Stress Breakdown,PASS
+APP-300,Stress Breakdown,Background Resumption,Appium native automation testing Background Resumption for Stress Breakdown,PASS
+APP-301,Trigger Detection,Element Identification,Appium native automation testing Element Identification for Trigger Detection,PASS
+APP-302,Trigger Detection,Click Interactivity,Appium native automation testing Click Interactivity for Trigger Detection,PASS
+APP-303,Trigger Detection,Scroll Behavior,Appium native automation testing Scroll Behavior for Trigger Detection,PASS
+APP-304,Trigger Detection,Native Rendering,Appium native automation testing Native Rendering for Trigger Detection,PASS
+APP-305,Trigger Detection,State Retention,Appium native automation testing State Retention for Trigger Detection,PASS
+APP-306,Trigger Detection,Orientation Shift,Appium native automation testing Orientation Shift for Trigger Detection,PASS
+APP-307,Trigger Detection,Input Focus,Appium native automation testing Input Focus for Trigger Detection,PASS
+APP-308,Trigger Detection,Toast Validation,Appium native automation testing Toast Validation for Trigger Detection,PASS
+APP-309,Trigger Detection,Alert Handling,Appium native automation testing Alert Handling for Trigger Detection,PASS
+APP-310,Trigger Detection,Background Resumption,Appium native automation testing Background Resumption for Trigger Detection,PASS
+APP-311,Weekly Trends,Element Identification,Appium native automation testing Element Identification for Weekly Trends,PASS
+APP-312,Weekly Trends,Click Interactivity,Appium native automation testing Click Interactivity for Weekly Trends,PASS
+APP-313,Weekly Trends,Scroll Behavior,Appium native automation testing Scroll Behavior for Weekly Trends,PASS
+APP-314,Weekly Trends,Native Rendering,Appium native automation testing Native Rendering for Weekly Trends,PASS
+APP-315,Weekly Trends,State Retention,Appium native automation testing State Retention for Weekly Trends,PASS
+APP-316,Weekly Trends,Orientation Shift,Appium native automation testing Orientation Shift for Weekly Trends,PASS
+APP-317,Weekly Trends,Input Focus,Appium native automation testing Input Focus for Weekly Trends,PASS
+APP-318,Weekly Trends,Toast Validation,Appium native automation testing Toast Validation for Weekly Trends,PASS
+APP-319,Weekly Trends,Alert Handling,Appium native automation testing Alert Handling for Weekly Trends,PASS
+APP-320,Weekly Trends,Background Resumption,Appium native automation testing Background Resumption for Weekly Trends,PASS
+APP-321,Monthly Analytics,Element Identification,Appium native automation testing Element Identification for Monthly Analytics,PASS
+APP-322,Monthly Analytics,Click Interactivity,Appium native automation testing Click Interactivity for Monthly Analytics,PASS
+APP-323,Monthly Analytics,Scroll Behavior,Appium native automation testing Scroll Behavior for Monthly Analytics,PASS
+APP-324,Monthly Analytics,Native Rendering,Appium native automation testing Native Rendering for Monthly Analytics,PASS
+APP-325,Monthly Analytics,State Retention,Appium native automation testing State Retention for Monthly Analytics,PASS
+APP-326,Monthly Analytics,Orientation Shift,Appium native automation testing Orientation Shift for Monthly Analytics,PASS
+APP-327,Monthly Analytics,Input Focus,Appium native automation testing Input Focus for Monthly Analytics,PASS
+APP-328,Monthly Analytics,Toast Validation,Appium native automation testing Toast Validation for Monthly Analytics,PASS
+APP-329,Monthly Analytics,Alert Handling,Appium native automation testing Alert Handling for Monthly Analytics,PASS
+APP-330,Monthly Analytics,Background Resumption,Appium native automation testing Background Resumption for Monthly Analytics,PASS
+APP-331,Private Mentor Chat,Element Identification,Appium native automation testing Element Identification for Private Mentor Chat,PASS
+APP-332,Private Mentor Chat,Click Interactivity,Appium native automation testing Click Interactivity for Private Mentor Chat,PASS
+APP-333,Private Mentor Chat,Scroll Behavior,Appium native automation testing Scroll Behavior for Private Mentor Chat,PASS
+APP-334,Private Mentor Chat,Native Rendering,Appium native automation testing Native Rendering for Private Mentor Chat,PASS
+APP-335,Private Mentor Chat,State Retention,Appium native automation testing State Retention for Private Mentor Chat,PASS
+APP-336,Private Mentor Chat,Orientation Shift,Appium native automation testing Orientation Shift for Private Mentor Chat,PASS
+APP-337,Private Mentor Chat,Input Focus,Appium native automation testing Input Focus for Private Mentor Chat,PASS
+APP-338,Private Mentor Chat,Toast Validation,Appium native automation testing Toast Validation for Private Mentor Chat,PASS
+APP-339,Private Mentor Chat,Alert Handling,Appium native automation testing Alert Handling for Private Mentor Chat,PASS
+APP-340,Private Mentor Chat,Background Resumption,Appium native automation testing Background Resumption for Private Mentor Chat,PASS
+APP-341,Chat Home,Element Identification,Appium native automation testing Element Identification for Chat Home,PASS
+APP-342,Chat Home,Click Interactivity,Appium native automation testing Click Interactivity for Chat Home,PASS
+APP-343,Chat Home,Scroll Behavior,Appium native automation testing Scroll Behavior for Chat Home,PASS
+APP-344,Chat Home,Native Rendering,Appium native automation testing Native Rendering for Chat Home,PASS
+APP-345,Chat Home,State Retention,Appium native automation testing State Retention for Chat Home,PASS
+APP-346,Chat Home,Orientation Shift,Appium native automation testing Orientation Shift for Chat Home,PASS
+APP-347,Chat Home,Input Focus,Appium native automation testing Input Focus for Chat Home,PASS
+APP-348,Chat Home,Toast Validation,Appium native automation testing Toast Validation for Chat Home,PASS
+APP-349,Chat Home,Alert Handling,Appium native automation testing Alert Handling for Chat Home,PASS
+APP-350,Chat Home,Background Resumption,Appium native automation testing Background Resumption for Chat Home,PASS
+APP-351,Chat Conversation,Element Identification,Appium native automation testing Element Identification for Chat Conversation,PASS
+APP-352,Chat Conversation,Click Interactivity,Appium native automation testing Click Interactivity for Chat Conversation,PASS
+APP-353,Chat Conversation,Scroll Behavior,Appium native automation testing Scroll Behavior for Chat Conversation,PASS
+APP-354,Chat Conversation,Native Rendering,Appium native automation testing Native Rendering for Chat Conversation,PASS
+APP-355,Chat Conversation,State Retention,Appium native automation testing State Retention for Chat Conversation,PASS
+APP-356,Chat Conversation,Orientation Shift,Appium native automation testing Orientation Shift for Chat Conversation,PASS
+APP-357,Chat Conversation,Input Focus,Appium native automation testing Input Focus for Chat Conversation,PASS
+APP-358,Chat Conversation,Toast Validation,Appium native automation testing Toast Validation for Chat Conversation,PASS
+APP-359,Chat Conversation,Alert Handling,Appium native automation testing Alert Handling for Chat Conversation,PASS
+APP-360,Chat Conversation,Background Resumption,Appium native automation testing Background Resumption for Chat Conversation,PASS
+APP-361,Wellness Suggestions,Element Identification,Appium native automation testing Element Identification for Wellness Suggestions,PASS
+APP-362,Wellness Suggestions,Click Interactivity,Appium native automation testing Click Interactivity for Wellness Suggestions,PASS
+APP-363,Wellness Suggestions,Scroll Behavior,Appium native automation testing Scroll Behavior for Wellness Suggestions,PASS
+APP-364,Wellness Suggestions,Native Rendering,Appium native automation testing Native Rendering for Wellness Suggestions,PASS
+APP-365,Wellness Suggestions,State Retention,Appium native automation testing State Retention for Wellness Suggestions,PASS
+APP-366,Wellness Suggestions,Orientation Shift,Appium native automation testing Orientation Shift for Wellness Suggestions,PASS
+APP-367,Wellness Suggestions,Input Focus,Appium native automation testing Input Focus for Wellness Suggestions,PASS
+APP-368,Wellness Suggestions,Toast Validation,Appium native automation testing Toast Validation for Wellness Suggestions,PASS
+APP-369,Wellness Suggestions,Alert Handling,Appium native automation testing Alert Handling for Wellness Suggestions,PASS
+APP-370,Wellness Suggestions,Background Resumption,Appium native automation testing Background Resumption for Wellness Suggestions,PASS
+APP-371,Meditation Player,Element Identification,Appium native automation testing Element Identification for Meditation Player,PASS
+APP-372,Meditation Player,Click Interactivity,Appium native automation testing Click Interactivity for Meditation Player,PASS
+APP-373,Meditation Player,Scroll Behavior,Appium native automation testing Scroll Behavior for Meditation Player,PASS
+APP-374,Meditation Player,Native Rendering,Appium native automation testing Native Rendering for Meditation Player,PASS
+APP-375,Meditation Player,State Retention,Appium native automation testing State Retention for Meditation Player,PASS
+APP-376,Meditation Player,Orientation Shift,Appium native automation testing Orientation Shift for Meditation Player,PASS
+APP-377,Meditation Player,Input Focus,Appium native automation testing Input Focus for Meditation Player,PASS
+APP-378,Meditation Player,Toast Validation,Appium native automation testing Toast Validation for Meditation Player,PASS
+APP-379,Meditation Player,Alert Handling,Appium native automation testing Alert Handling for Meditation Player,PASS
+APP-380,Meditation Player,Background Resumption,Appium native automation testing Background Resumption for Meditation Player,PASS
+APP-381,Breathing Exercise,Element Identification,Appium native automation testing Element Identification for Breathing Exercise,PASS
+APP-382,Breathing Exercise,Click Interactivity,Appium native automation testing Click Interactivity for Breathing Exercise,PASS
+APP-383,Breathing Exercise,Scroll Behavior,Appium native automation testing Scroll Behavior for Breathing Exercise,PASS
+APP-384,Breathing Exercise,Native Rendering,Appium native automation testing Native Rendering for Breathing Exercise,PASS
+APP-385,Breathing Exercise,State Retention,Appium native automation testing State Retention for Breathing Exercise,PASS
+APP-386,Breathing Exercise,Orientation Shift,Appium native automation testing Orientation Shift for Breathing Exercise,PASS
+APP-387,Breathing Exercise,Input Focus,Appium native automation testing Input Focus for Breathing Exercise,PASS
+APP-388,Breathing Exercise,Toast Validation,Appium native automation testing Toast Validation for Breathing Exercise,PASS
+APP-389,Breathing Exercise,Alert Handling,Appium native automation testing Alert Handling for Breathing Exercise,PASS
+APP-390,Breathing Exercise,Background Resumption,Appium native automation testing Background Resumption for Breathing Exercise,PASS
+APP-391,Profile Settings,Element Identification,Appium native automation testing Element Identification for Profile Settings,PASS
+APP-392,Profile Settings,Click Interactivity,Appium native automation testing Click Interactivity for Profile Settings,PASS
+APP-393,Profile Settings,Scroll Behavior,Appium native automation testing Scroll Behavior for Profile Settings,PASS
+APP-394,Profile Settings,Native Rendering,Appium native automation testing Native Rendering for Profile Settings,PASS
+APP-395,Profile Settings,State Retention,Appium native automation testing State Retention for Profile Settings,PASS
+APP-396,Profile Settings,Orientation Shift,Appium native automation testing Orientation Shift for Profile Settings,PASS
+APP-397,Profile Settings,Input Focus,Appium native automation testing Input Focus for Profile Settings,PASS
+APP-398,Profile Settings,Toast Validation,Appium native automation testing Toast Validation for Profile Settings,PASS
+APP-399,Profile Settings,Alert Handling,Appium native automation testing Alert Handling for Profile Settings,PASS
+APP-400,Profile Settings,Background Resumption,Appium native automation testing Background Resumption for Profile Settings,PASS
